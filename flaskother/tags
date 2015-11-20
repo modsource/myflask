@@ -1,0 +1,1776 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLSPHINXOPTS	docs/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
+ALLSPHINXOPTS	docs/make.bat	/^	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%$/;"	v
+ALLSPHINXOPTS	docs/make.bat	/^set ALLSPHINXOPTS=-d %BUILDDIR%\/doctrees %SPHINXOPTS% .$/;"	v
+APPLICATION_ROOT	flask/testsuite/basic.py	/^            APPLICATION_ROOT='\/bar'$/;"	v	class:BasicFunctionalityTestCase.test_session_using_application_root.PrefixPathMiddleware
+AppContext	flask/app.py	/^from .ctx import RequestContext, AppContext, _AppCtxGlobals$/;"	i
+AppContext	flask/ctx.py	/^class AppContext(object):$/;"	c
+AppContextTestCase	flask/testsuite/appctx.py	/^class AppContextTestCase(FlaskTestCase):$/;"	c
+BUILDDIR	docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BadRequest	flask/app.py	/^     MethodNotAllowed, BadRequest$/;"	i
+BadRequest	flask/testsuite/basic.py	/^from werkzeug.exceptions import BadRequest, NotFound$/;"	i
+BadRequest	flask/wrappers.py	/^from werkzeug.exceptions import BadRequest$/;"	i
+BadSignature	flask/sessions.py	/^from itsdangerous import URLSafeTimedSerializer, BadSignature$/;"	i
+Base	flask/testsuite/config.py	/^        class Base(object):$/;"	c	function:ConfigTestCase.test_config_from_class
+BaseConverter	flask/testsuite/basic.py	/^        from werkzeug.routing import BaseConverter$/;"	i
+BaseEnvironment	flask/templating.py	/^     TemplateNotFound$/;"	i
+BaseLoader	flask/templating.py	/^     TemplateNotFound$/;"	i
+BasicFunctionalityTestCase	flask/testsuite/basic.py	/^class BasicFunctionalityTestCase(FlaskTestCase):$/;"	c
+BetterIndex	flask/testsuite/views.py	/^        class BetterIndex(Index):$/;"	c	function:ViewTestCase.test_view_inheritance
+BetterLoader	flask/testsuite/__init__.py	/^class BetterLoader(unittest.TestLoader):$/;"	c
+Blueprint	examples/blueprintexample/simple_page/simple_page.py	/^from flask import Blueprint, render_template, abort$/;"	i
+Blueprint	flask/__init__.py	/^from .blueprints import Blueprint$/;"	i
+Blueprint	flask/blueprints.py	/^class Blueprint(_PackageBoundObject):$/;"	c
+Blueprint	flask/module.py	/^from .blueprints import Blueprint$/;"	i
+Blueprint	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^from flask import Blueprint, render_template$/;"	i
+Blueprint	flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py	/^from flask import Blueprint, render_template$/;"	i
+BlueprintExampleTestCase	examples/blueprintexample/blueprintexample_test.py	/^class BlueprintExampleTestCase(unittest.TestCase):$/;"	c
+BlueprintSetupState	flask/blueprints.py	/^class BlueprintSetupState(object):$/;"	c
+BlueprintTestCase	flask/testsuite/blueprints.py	/^class BlueprintTestCase(FlaskTestCase):$/;"	c
+BuildError	flask/app.py	/^from werkzeug.routing import Map, Rule, RequestRedirect, BuildError$/;"	i
+BuildError	flask/helpers.py	/^from werkzeug.routing import BuildError$/;"	i
+BuildError	flask/testsuite/basic.py	/^from werkzeug.routing import BuildError$/;"	i
+CallbackDict	flask/sessions.py	/^from werkzeug.datastructures import CallbackDict$/;"	i
+Client	flask/testing.py	/^from werkzeug.test import Client, EnvironBuilder$/;"	i
+Command	setup.py	/^from setuptools import Command, setup$/;"	i
+Comment	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Comment	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Config	flask/__init__.py	/^from .config import Config$/;"	i
+Config	flask/app.py	/^from .config import ConfigAttribute, Config$/;"	i
+Config	flask/config.py	/^class Config(dict):$/;"	c
+ConfigAttribute	flask/app.py	/^from .config import ConfigAttribute, Config$/;"	i
+ConfigAttribute	flask/config.py	/^class ConfigAttribute(object):$/;"	c
+ConfigTestCase	flask/testsuite/config.py	/^class ConfigTestCase(FlaskTestCase):$/;"	c
+CustomRequestGlobals	flask/testsuite/appctx.py	/^        class CustomRequestGlobals(object):$/;"	c	function:AppContextTestCase.test_custom_app_ctx_globals_class
+DATABASE	examples/flaskr/flaskr.py	/^DATABASE = '\/tmp\/flaskr.db'$/;"	v
+DATABASE	examples/minitwit/minitwit.py	/^DATABASE = '\/tmp\/minitwit.db'$/;"	v
+DEBUG	examples/flaskr/flaskr.py	/^DEBUG = True$/;"	v
+DEBUG	examples/minitwit/minitwit.py	/^DEBUG = True$/;"	v
+DEBUG	examples/persona/persona.py	/^    DEBUG=True,$/;"	v
+DEBUG	flask/logging.py	/^from logging import getLogger, StreamHandler, Formatter, getLoggerClass, DEBUG$/;"	i
+DebugFilesKeyError	flask/debughelpers.py	/^class DebugFilesKeyError(KeyError, AssertionError):$/;"	c
+DebugFilesKeyError	flask/testsuite/basic.py	/^        from flask.debughelpers import DebugFilesKeyError$/;"	i
+DebugHandler	flask/logging.py	/^    class DebugHandler(StreamHandler):$/;"	c	function:create_logger
+DebugLogger	flask/logging.py	/^    class DebugLogger(Logger):$/;"	c	function:create_logger
+DeprecationsTestCase	flask/testsuite/deprecations.py	/^class DeprecationsTestCase(FlaskTestCase):$/;"	c
+DictLoader	flask/testsuite/templating.py	/^                from jinja2 import DictLoader$/;"	i
+DispatchingJinjaLoader	flask/app.py	/^     _default_template_ctx_processor$/;"	i
+DispatchingJinjaLoader	flask/templating.py	/^class DispatchingJinjaLoader(BaseLoader):$/;"	c
+EnvironBuilder	flask/testing.py	/^from werkzeug.test import Client, EnvironBuilder$/;"	i
+Environment	flask/app.py	/^     _default_template_ctx_processor$/;"	i
+Environment	flask/templating.py	/^class Environment(BaseEnvironment):$/;"	c
+Error	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Error	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+ExceptionTestCase	flask/testsuite/regression.py	/^class ExceptionTestCase(FlaskTestCase):$/;"	c
+ExtImportHookTestCase	flask/testsuite/ext.py	/^class ExtImportHookTestCase(FlaskTestCase):$/;"	c
+ExtensionImporter	flask/ext/__init__.py	/^    from ..exthook import ExtensionImporter$/;"	i
+ExtensionImporter	flask/exthook.py	/^class ExtensionImporter(object):$/;"	c
+FileSystemLoader	flask/helpers.py	/^from jinja2 import FileSystemLoader$/;"	i
+Flask	examples/blueprintexample/blueprintexample.py	/^from flask import Flask$/;"	i
+Flask	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+Flask	examples/jqueryexample/jqueryexample.py	/^from flask import Flask, jsonify, render_template, request$/;"	i
+Flask	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+Flask	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+Flask	flask/__init__.py	/^from .app import Flask, Request, Response$/;"	i
+Flask	flask/app.py	/^class Flask(_PackageBoundObject):$/;"	c
+Flask	flask/testsuite/test_apps/blueprintapp/__init__.py	/^from flask import Flask$/;"	i
+Flask	flask/testsuite/test_apps/moduleapp/__init__.py	/^from flask import Flask$/;"	i
+FlaskClient	flask/testing.py	/^class FlaskClient(Client):$/;"	c
+FlaskSubclassingTestCase	flask/testsuite/subclassing.py	/^class FlaskSubclassingTestCase(FlaskTestCase):$/;"	c
+FlaskTestCase	flask/testsuite/__init__.py	/^class FlaskTestCase(unittest.TestCase):$/;"	c
+FlaskTestCase	flask/testsuite/appctx.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/basic.py	/^from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning$/;"	i
+FlaskTestCase	flask/testsuite/blueprints.py	/^from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning$/;"	i
+FlaskTestCase	flask/testsuite/config.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/deprecations.py	/^from flask.testsuite import FlaskTestCase, catch_warnings$/;"	i
+FlaskTestCase	flask/testsuite/ext.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/helpers.py	/^from flask.testsuite import FlaskTestCase, catch_warnings, catch_stderr$/;"	i
+FlaskTestCase	flask/testsuite/regression.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/reqctx.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/signals.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/subclassing.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/templating.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/testing.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskTestCase	flask/testsuite/views.py	/^from flask.testsuite import FlaskTestCase$/;"	i
+FlaskrTestCase	examples/flaskr/flaskr_tests.py	/^class FlaskrTestCase(unittest.TestCase):$/;"	c
+FlaskrTestCase	flask/testsuite/examples.py	/^        from flaskr_tests import FlaskrTestCase$/;"	i
+FlaskyStyle	docs/_themes/flask_theme_support.py	/^class FlaskyStyle(Style):$/;"	c
+FlaskyStyle	docs/flaskext.py	/^class FlaskyStyle(Style):$/;"	c
+Foo	flask/testsuite/regression.py	/^        class Foo(Exception):$/;"	c	function:ExceptionTestCase.test_aborting
+FormDataRoutingRedirect	flask/app.py	/^        from .debughelpers import FormDataRoutingRedirect$/;"	i
+FormDataRoutingRedirect	flask/debughelpers.py	/^class FormDataRoutingRedirect(AssertionError):$/;"	c
+Formatter	flask/logging.py	/^from logging import getLogger, StreamHandler, Formatter, getLoggerClass, DEBUG$/;"	i
+Generic	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Generic	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+HTTPException	flask/app.py	/^     MethodNotAllowed, BadRequest$/;"	i
+HTTPException	flask/ctx.py	/^from werkzeug.exceptions import HTTPException$/;"	i
+Headers	flask/helpers.py	/^from werkzeug.datastructures import Headers$/;"	i
+ImmutableDict	flask/app.py	/^from werkzeug.datastructures import ImmutableDict$/;"	i
+Index	flask/testsuite/views.py	/^        class Index(flask.views.MethodView):$/;"	c	function:ViewTestCase.test_explicit_head
+Index	flask/testsuite/views.py	/^        class Index(flask.views.MethodView):$/;"	c	function:ViewTestCase.test_implicit_head
+Index	flask/testsuite/views.py	/^        class Index(flask.views.MethodView):$/;"	c	function:ViewTestCase.test_method_based_view
+Index	flask/testsuite/views.py	/^        class Index(flask.views.MethodView):$/;"	c	function:ViewTestCase.test_view_inheritance
+Index	flask/testsuite/views.py	/^        class Index(flask.views.MethodView):$/;"	c	function:ViewTestCase.test_view_patching
+Index	flask/testsuite/views.py	/^        class Index(flask.views.View):$/;"	c	function:ViewTestCase.test_basic_view
+Index	flask/testsuite/views.py	/^        class Index(flask.views.View):$/;"	c	function:ViewTestCase.test_endpoint_override
+Index	flask/testsuite/views.py	/^        class Index(flask.views.View):$/;"	c	function:ViewTestCase.test_view_decorators
+InstanceTestCase	flask/testsuite/config.py	/^class InstanceTestCase(FlaskTestCase):$/;"	c
+InternalServerError	flask/app.py	/^     MethodNotAllowed, BadRequest$/;"	i
+JSONDecoder	flask/json.py	/^class JSONDecoder(_json.JSONDecoder):$/;"	c
+JSONEncoder	flask/json.py	/^class JSONEncoder(_json.JSONEncoder):$/;"	c
+JSONTestCase	flask/testsuite/helpers.py	/^class JSONTestCase(FlaskTestCase):$/;"	c
+Keyword	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Keyword	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+LimitedLoaderMockWrapper	flask/testsuite/config.py	/^class LimitedLoaderMockWrapper(object):$/;"	c
+ListConverter	flask/testsuite/basic.py	/^        class ListConverter(BaseConverter):$/;"	c	function:BasicFunctionalityTestCase.test_custom_converters
+Literal	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Literal	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+LocalProxy	flask/globals.py	/^from werkzeug.local import LocalStack, LocalProxy$/;"	i
+LocalStack	flask/globals.py	/^from werkzeug.local import LocalStack, LocalProxy$/;"	i
+Lock	flask/app.py	/^from threading import Lock$/;"	i
+LoggingTestCase	flask/testsuite/helpers.py	/^class LoggingTestCase(FlaskTestCase):$/;"	c
+Map	flask/app.py	/^from werkzeug.routing import Map, Rule, RequestRedirect, BuildError$/;"	i
+Markup	flask/__init__.py	/^from jinja2 import Markup, escape$/;"	i
+Markup	flask/json.py	/^from jinja2 import Markup$/;"	i
+Markup	flask/sessions.py	/^from . import Markup, json$/;"	i
+MemoryTestCase	flask/testsuite/regression.py	/^class MemoryTestCase(FlaskTestCase):$/;"	c
+MethodNotAllowed	flask/app.py	/^     MethodNotAllowed, BadRequest$/;"	i
+MethodView	flask/testsuite/helpers.py	/^        from flask.views import MethodView$/;"	i
+MethodView	flask/views.py	/^class MethodView(with_metaclass(MethodViewType, View)):$/;"	c
+MethodViewType	flask/views.py	/^class MethodViewType(type):$/;"	c
+MiniTwitTestCase	examples/minitwit/minitwit_tests.py	/^class MiniTwitTestCase(unittest.TestCase):$/;"	c
+MiniTwitTestCase	flask/testsuite/examples.py	/^        from minitwit_tests import MiniTwitTestCase$/;"	i
+ModifiedRequest	flask/testsuite/helpers.py	/^        class ModifiedRequest(flask.Request):$/;"	c	function:JSONTestCase.test_modified_url_encoding
+Module	flask/__init__.py	/^from .module import Module$/;"	i
+Module	flask/module.py	/^class Module(Blueprint):$/;"	c
+Module	flask/testsuite/blueprints.py	/^        from flask import Module$/;"	i
+Module	flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py	/^from flask import Module, render_template$/;"	i
+Module	flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py	/^from flask import Module, render_template$/;"	i
+Module	flask/testsuite/test_apps/subdomaintestmodule/__init__.py	/^from flask import Module$/;"	i
+ModuleTestCase	flask/testsuite/blueprints.py	/^class ModuleTestCase(FlaskTestCase):$/;"	c
+MyBlueprint	flask/testsuite/blueprints.py	/^        class MyBlueprint(flask.Blueprint):$/;"	c	function:BlueprintTestCase.test_default_static_cache_timeout
+MyDecoder	flask/testsuite/helpers.py	/^        class MyDecoder(flask.json.JSONDecoder):$/;"	c	function:JSONTestCase.test_json_customization
+MyEncoder	flask/testsuite/helpers.py	/^        class MyEncoder(flask.json.JSONEncoder):$/;"	c	function:JSONTestCase.test_json_customization
+MyException	flask/testsuite/basic.py	/^        class MyException(Exception):$/;"	c	function:BasicFunctionalityTestCase.test_user_error_handling
+MyFlask	flask/testsuite/templating.py	/^        class MyFlask(flask.Flask):$/;"	c	function:TemplatingTestCase.test_custom_template_loader
+MyView	flask/testsuite/helpers.py	/^        class MyView(MethodView):$/;"	c	function:LoggingTestCase.test_url_with_method
+Name	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Name	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Namespace	flask/signals.py	/^    class Namespace(object):$/;"	c
+Namespace	flask/signals.py	/^    from blinker import Namespace$/;"	i
+NoImportsTestCase	flask/testsuite/helpers.py	/^class NoImportsTestCase(FlaskTestCase):$/;"	c
+NotFound	flask/helpers.py	/^from werkzeug.exceptions import NotFound$/;"	i
+NotFound	flask/testsuite/basic.py	/^from werkzeug.exceptions import BadRequest, NotFound$/;"	i
+NotFound	flask/testsuite/blueprints.py	/^from werkzeug.exceptions import NotFound$/;"	i
+NotFound	flask/testsuite/regression.py	/^from werkzeug.exceptions import NotFound$/;"	i
+NullSession	flask/sessions.py	/^class NullSession(SecureCookieSession):$/;"	c
+Number	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Number	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Operator	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Operator	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Other	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Other	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Other	flask/testsuite/views.py	/^        class Other(Index):$/;"	c	function:ViewTestCase.test_view_patching
+PAPER	docs/Makefile	/^PAPER         =$/;"	m
+PAPER	docs/make.bat	/^	echo.  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter$/;"	v
+PAPEROPT_a4	docs/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	docs/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PASSWORD	examples/flaskr/flaskr.py	/^PASSWORD = 'default'$/;"	v
+PERSONA_JS	examples/persona/persona.py	/^    PERSONA_JS='https:\/\/login.persona.org\/include.js',$/;"	v
+PERSONA_VERIFIER	examples/persona/persona.py	/^    PERSONA_VERIFIER='https:\/\/verifier.login.persona.org\/verify',$/;"	v
+PER_PAGE	examples/minitwit/minitwit.py	/^PER_PAGE = 30$/;"	v
+PY2	flask/json.py	/^from ._compat import text_type, PY2$/;"	i
+PY2	flask/testsuite/ext.py	/^from flask._compat import PY2$/;"	i
+PrefixPathMiddleware	flask/testsuite/basic.py	/^        class PrefixPathMiddleware(object):$/;"	c	function:BasicFunctionalityTestCase.test_session_using_application_root
+Punctuation	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Punctuation	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+RLock	flask/helpers.py	/^from threading import RLock$/;"	i
+Request	flask/__init__.py	/^from .app import Flask, Request, Response$/;"	i
+Request	flask/app.py	/^from .wrappers import Request, Response$/;"	i
+Request	flask/wrappers.py	/^class Request(RequestBase):$/;"	c
+RequestBase	flask/wrappers.py	/^from werkzeug.wrappers import Request as RequestBase, Response as ResponseBase$/;"	i
+RequestContext	flask/app.py	/^from .ctx import RequestContext, AppContext, _AppCtxGlobals$/;"	i
+RequestContext	flask/ctx.py	/^class RequestContext(object):$/;"	c
+RequestContextTestCase	flask/testsuite/reqctx.py	/^class RequestContextTestCase(FlaskTestCase):$/;"	c
+RequestRedirect	flask/app.py	/^from werkzeug.routing import Map, Rule, RequestRedirect, BuildError$/;"	i
+Response	flask/__init__.py	/^from .app import Flask, Request, Response$/;"	i
+Response	flask/app.py	/^from .wrappers import Request, Response$/;"	i
+Response	flask/wrappers.py	/^class Response(ResponseBase):$/;"	c
+ResponseBase	flask/wrappers.py	/^from werkzeug.wrappers import Request as RequestBase, Response as ResponseBase$/;"	i
+Rule	flask/app.py	/^from werkzeug.routing import Map, Rule, RequestRedirect, BuildError$/;"	i
+Rule	flask/testsuite/basic.py	/^        from werkzeug.routing import Submount, Rule$/;"	i
+Rule	flask/testsuite/blueprints.py	/^        from werkzeug.routing import Submount, Rule$/;"	i
+SECRET_KEY	examples/flaskr/flaskr.py	/^SECRET_KEY = 'development key'$/;"	v
+SECRET_KEY	examples/minitwit/minitwit.py	/^SECRET_KEY = 'development key'$/;"	v
+SECRET_KEY	examples/persona/persona.py	/^    SECRET_KEY='my development key',$/;"	v
+SECRET_KEY	flask/testsuite/basic.py	/^            SECRET_KEY='foo',$/;"	v	class:BasicFunctionalityTestCase.test_session_using_application_root.PrefixPathMiddleware
+SECRET_KEY	flask/testsuite/config.py	/^            SECRET_KEY = 'devkey'$/;"	v	class:ConfigTestCase.test_config_from_class.Test
+SECRET_KEY	flask/testsuite/config.py	/^SECRET_KEY = 'devkey'$/;"	v
+SPHINXBUILD	docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXBUILD	docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXOPTS	docs/Makefile	/^SPHINXOPTS    =$/;"	m
+SecureCookieSession	flask/sessions.py	/^class SecureCookieSession(CallbackDict, SessionMixin):$/;"	c
+SecureCookieSessionInterface	flask/app.py	/^from .sessions import SecureCookieSessionInterface$/;"	i
+SecureCookieSessionInterface	flask/sessions.py	/^class SecureCookieSessionInterface(SessionInterface):$/;"	c
+SendfileTestCase	flask/testsuite/helpers.py	/^class SendfileTestCase(FlaskTestCase):$/;"	c
+Session	flask/__init__.py	/^from .sessions import SecureCookieSession as Session$/;"	i
+SessionInterface	flask/sessions.py	/^class SessionInterface(object):$/;"	c
+SessionMixin	flask/sessions.py	/^class SessionMixin(object):$/;"	c
+SignalsTestCase	flask/testsuite/signals.py	/^class SignalsTestCase(FlaskTestCase):$/;"	c
+SiteEgg	flask/testsuite/config.py	/^            import site_egg # in SiteEgg.egg$/;"	i
+StaticFileApp	flask/testsuite/helpers.py	/^        class StaticFileApp(flask.Flask):$/;"	c	function:SendfileTestCase.test_static_file
+StreamHandler	flask/logging.py	/^from logging import getLogger, StreamHandler, Formatter, getLoggerClass, DEBUG$/;"	i
+StreamHandler	flask/testsuite/helpers.py	/^from logging import StreamHandler$/;"	i
+StreamHandler	flask/testsuite/subclassing.py	/^from logging import StreamHandler$/;"	i
+StreamingTestCase	flask/testsuite/helpers.py	/^class StreamingTestCase(FlaskTestCase):$/;"	c
+String	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+String	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+StringIO	flask/_compat.py	/^    from cStringIO import StringIO$/;"	i
+StringIO	flask/_compat.py	/^    from io import StringIO$/;"	i
+StringIO	flask/testsuite/__init__.py	/^from flask._compat import reraise, StringIO$/;"	i
+StringIO	flask/testsuite/helpers.py	/^from flask._compat import StringIO, text_type$/;"	i
+StringIO	flask/testsuite/subclassing.py	/^from flask._compat import StringIO$/;"	i
+Style	docs/_themes/flask_theme_support.py	/^from pygments.style import Style$/;"	i
+Style	docs/flaskext.py	/^from pygments.style import Style$/;"	i
+SubdomainTestCase	flask/testsuite/basic.py	/^class SubdomainTestCase(FlaskTestCase):$/;"	c
+SubdomainTestCase	flask/testsuite/testing.py	/^class SubdomainTestCase(FlaskTestCase):$/;"	c
+Submount	flask/testsuite/basic.py	/^        from werkzeug.routing import Submount, Rule$/;"	i
+Submount	flask/testsuite/blueprints.py	/^        from werkzeug.routing import Submount, Rule$/;"	i
+SuppressedFlask	flask/testsuite/subclassing.py	/^        class SuppressedFlask(flask.Flask):$/;"	c	function:FlaskSubclassingTestCase.test_suppressed_exception_logging
+TEST_KEY	flask/testsuite/config.py	/^            TEST_KEY = 'foo'$/;"	v	class:ConfigTestCase.test_config_from_class.Base
+TEST_KEY	flask/testsuite/config.py	/^TEST_KEY = 'foo'$/;"	v
+TaggedJSONSerializer	flask/sessions.py	/^class TaggedJSONSerializer(object):$/;"	c
+TemplateNotFound	examples/blueprintexample/simple_page/simple_page.py	/^from jinja2 import TemplateNotFound$/;"	i
+TemplateNotFound	flask/templating.py	/^     TemplateNotFound$/;"	i
+TemplateNotFound	flask/testsuite/blueprints.py	/^from jinja2 import TemplateNotFound$/;"	i
+TemplatingTestCase	flask/testsuite/templating.py	/^class TemplatingTestCase(FlaskTestCase):$/;"	c
+Test	flask/testsuite/config.py	/^        class Test(Base):$/;"	c	function:ConfigTestCase.test_config_from_class
+TestToolsTestCase	flask/testsuite/testing.py	/^class TestToolsTestCase(FlaskTestCase):$/;"	c
+Thread	flask/testsuite/basic.py	/^from threading import Thread$/;"	i
+URLSafeTimedSerializer	flask/sessions.py	/^from itsdangerous import URLSafeTimedSerializer, BadSignature$/;"	i
+USERNAME	examples/flaskr/flaskr.py	/^USERNAME = 'admin'$/;"	v
+UnexpectedUnicodeError	flask/debughelpers.py	/^class UnexpectedUnicodeError(AssertionError, UnicodeError):$/;"	c
+UnexpectedUnicodeError	flask/sessions.py	/^from flask.debughelpers import UnexpectedUnicodeError$/;"	i
+View	flask/testsuite/basic.py	/^        class View(object):$/;"	c	function:SubdomainTestCase.test_multi_route_class_views
+View	flask/views.py	/^class View(object):$/;"	c
+ViewTestCase	flask/testsuite/views.py	/^class ViewTestCase(FlaskTestCase):$/;"	c
+Whitespace	docs/_themes/flask_theme_support.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Whitespace	docs/flaskext.py	/^     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal$/;"	i
+Wrapper	flask/testsuite/helpers.py	/^        class Wrapper(object):$/;"	c	function:StreamingTestCase.test_streaming_with_context_and_custom_close
+X	flask/testsuite/helpers.py	/^        class X(object):$/;"	c	function:JSONTestCase.test_json_customization
+_AppCtxGlobals	flask/app.py	/^from .ctx import RequestContext, AppContext, _AppCtxGlobals$/;"	i
+_AppCtxGlobals	flask/ctx.py	/^class _AppCtxGlobals(object):$/;"	c
+_ExceptionCatcher	flask/testsuite/__init__.py	/^class _ExceptionCatcher(object):$/;"	c
+_FakeSignal	flask/signals.py	/^    class _FakeSignal(object):$/;"	c
+_NoLeakAsserter	flask/testsuite/regression.py	/^class _NoLeakAsserter(object):$/;"	c
+_PackageBoundObject	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+_PackageBoundObject	flask/blueprints.py	/^from .helpers import _PackageBoundObject, _endpoint_from_view_func$/;"	i
+_PackageBoundObject	flask/helpers.py	/^class _PackageBoundObject(object):$/;"	c
+__all__	flask/json.py	/^__all__ = ['dump', 'dumps', 'load', 'loads', 'htmlsafe_dump',$/;"	v
+__call__	flask/_compat.py	/^        __call__ = type.__call__$/;"	v	class:with_metaclass.metaclass
+__call__	flask/app.py	/^    def __call__(self, environ, start_response):$/;"	m	class:Flask	file:
+__call__	flask/testsuite/basic.py	/^            def __call__(self, environ, start_response):$/;"	m	class:BasicFunctionalityTestCase.test_session_using_application_root.PrefixPathMiddleware	file:
+__contains__	flask/ctx.py	/^    def __contains__(self, item):$/;"	m	class:_AppCtxGlobals	file:
+__enter__	flask/ctx.py	/^    def __enter__(self):$/;"	m	class:AppContext	file:
+__enter__	flask/ctx.py	/^    def __enter__(self):$/;"	m	class:RequestContext	file:
+__enter__	flask/testing.py	/^    def __enter__(self):$/;"	m	class:FlaskClient	file:
+__enter__	flask/testsuite/__init__.py	/^    def __enter__(self):$/;"	m	class:_ExceptionCatcher	file:
+__enter__	flask/testsuite/regression.py	/^    def __enter__(self):$/;"	m	class:_NoLeakAsserter	file:
+__eq__	flask/exthook.py	/^    def __eq__(self, other):$/;"	m	class:ExtensionImporter	file:
+__exit__	flask/ctx.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:AppContext	file:
+__exit__	flask/ctx.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:RequestContext	file:
+__exit__	flask/testing.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:FlaskClient	file:
+__exit__	flask/testsuite/__init__.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:_ExceptionCatcher	file:
+__exit__	flask/testsuite/regression.py	/^    def __exit__(self, exc_type, exc_value, tb):$/;"	m	class:_NoLeakAsserter	file:
+__get__	flask/config.py	/^    def __get__(self, obj, type=None):$/;"	m	class:ConfigAttribute	file:
+__get__	flask/helpers.py	/^    def __get__(self, obj, type=None):$/;"	m	class:locked_cached_property	file:
+__getattr__	flask/testsuite/config.py	/^    def __getattr__(self, name):$/;"	m	class:LimitedLoaderMockWrapper	file:
+__getitem__	flask/debughelpers.py	/^        def __getitem__(self, key):$/;"	m	class:attach_enctype_error_multidict.newcls	file:
+__init__	flask/_compat.py	/^        __init__ = type.__init__$/;"	v	class:with_metaclass.metaclass
+__init__	flask/app.py	/^    def __init__(self, import_name, static_path=None, static_url_path=None,$/;"	m	class:Flask
+__init__	flask/blueprints.py	/^    def __init__(self, blueprint, app, options, first_registration):$/;"	m	class:BlueprintSetupState
+__init__	flask/blueprints.py	/^    def __init__(self, name, import_name, static_folder=None,$/;"	m	class:Blueprint
+__init__	flask/config.py	/^    def __init__(self, name, get_converter=None):$/;"	m	class:ConfigAttribute
+__init__	flask/config.py	/^    def __init__(self, root_path, defaults=None):$/;"	m	class:Config
+__init__	flask/ctx.py	/^    def __init__(self, app):$/;"	m	class:AppContext
+__init__	flask/ctx.py	/^    def __init__(self, app, environ, request=None):$/;"	m	class:RequestContext
+__init__	flask/debughelpers.py	/^    def __init__(self, request):$/;"	m	class:FormDataRoutingRedirect
+__init__	flask/debughelpers.py	/^    def __init__(self, request, key):$/;"	m	class:DebugFilesKeyError
+__init__	flask/exthook.py	/^    def __init__(self, module_choices, wrapper_module):$/;"	m	class:ExtensionImporter
+__init__	flask/helpers.py	/^    def __init__(self, func, name=None, doc=None):$/;"	m	class:locked_cached_property
+__init__	flask/helpers.py	/^    def __init__(self, import_name, template_folder=None):$/;"	m	class:_PackageBoundObject
+__init__	flask/module.py	/^    def __init__(self, import_name, name=None, url_prefix=None,$/;"	m	class:Module
+__init__	flask/sessions.py	/^    def __init__(self, initial=None):$/;"	m	class:SecureCookieSession
+__init__	flask/signals.py	/^        def __init__(self, name, doc=None):$/;"	m	class:_FakeSignal
+__init__	flask/templating.py	/^    def __init__(self, app):$/;"	m	class:DispatchingJinjaLoader
+__init__	flask/templating.py	/^    def __init__(self, app, **options):$/;"	m	class:Environment
+__init__	flask/testsuite/__init__.py	/^    def __init__(self, test_case, exc_type):$/;"	m	class:_ExceptionCatcher
+__init__	flask/testsuite/appctx.py	/^            def __init__(self):$/;"	m	class:AppContextTestCase.test_custom_app_ctx_globals_class.CustomRequestGlobals
+__init__	flask/testsuite/basic.py	/^            def __init__(self, app):$/;"	m	class:SubdomainTestCase.test_multi_route_class_views.View
+__init__	flask/testsuite/basic.py	/^            def __init__(self, app, prefix):$/;"	m	class:BasicFunctionalityTestCase.test_session_using_application_root.PrefixPathMiddleware
+__init__	flask/testsuite/config.py	/^    def __init__(self, loader):$/;"	m	class:LimitedLoaderMockWrapper
+__init__	flask/testsuite/helpers.py	/^            def __init__(self, *args, **kwargs):$/;"	m	class:JSONTestCase.test_json_customization.MyDecoder
+__init__	flask/testsuite/helpers.py	/^            def __init__(self, gen):$/;"	m	class:StreamingTestCase.test_streaming_with_context_and_custom_close.Wrapper
+__init__	flask/testsuite/helpers.py	/^            def __init__(self, val):$/;"	m	class:JSONTestCase.test_json_customization.X
+__init__	flask/testsuite/regression.py	/^    def __init__(self, testcase):$/;"	m	class:_NoLeakAsserter
+__iter__	flask/ctx.py	/^    def __iter__(self):$/;"	m	class:_AppCtxGlobals	file:
+__iter__	flask/testsuite/helpers.py	/^            def __iter__(self):$/;"	m	class:StreamingTestCase.test_streaming_with_context_and_custom_close.Wrapper	file:
+__ne__	flask/exthook.py	/^    def __ne__(self, other):$/;"	m	class:ExtensionImporter	file:
+__new__	flask/_compat.py	/^        def __new__(cls, name, this_bases, d):$/;"	m	class:with_metaclass.metaclass	file:
+__new__	flask/views.py	/^    def __new__(cls, name, bases, d):$/;"	m	class:MethodViewType	file:
+__next__	flask/testsuite/helpers.py	/^            def __next__(self):$/;"	m	class:StreamingTestCase.test_streaming_with_context_and_custom_close.Wrapper	file:
+__repr__	flask/app.py	/^    def __repr__(self):$/;"	m	class:Flask	file:
+__repr__	flask/config.py	/^    def __repr__(self):$/;"	m	class:Config	file:
+__repr__	flask/ctx.py	/^    def __repr__(self):$/;"	m	class:RequestContext	file:
+__repr__	flask/ctx.py	/^    def __repr__(self):$/;"	m	class:_AppCtxGlobals	file:
+__set__	flask/config.py	/^    def __set__(self, obj, value):$/;"	m	class:ConfigAttribute	file:
+__str__	flask/debughelpers.py	/^    def __str__(self):$/;"	m	class:DebugFilesKeyError	file:
+__version__	flask/__init__.py	/^__version__ = '0.10.1'$/;"	v
+_app_ctx_stack	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+_app_ctx_stack	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+_app_ctx_stack	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+_app_ctx_stack	flask/ctx.py	/^from .globals import _request_ctx_stack, _app_ctx_stack$/;"	i
+_app_ctx_stack	flask/globals.py	/^_app_ctx_stack = LocalStack()$/;"	v
+_app_ctx_stack	flask/helpers.py	/^     current_app, request$/;"	i
+_app_ctx_stack	flask/templating.py	/^from .globals import _request_ctx_stack, _app_ctx_stack$/;"	i
+_default_template_ctx_processor	flask/app.py	/^     _default_template_ctx_processor$/;"	i
+_default_template_ctx_processor	flask/templating.py	/^def _default_template_ctx_processor():$/;"	f
+_dump_arg_defaults	flask/json.py	/^def _dump_arg_defaults(kwargs):$/;"	f
+_endpoint_from_view_func	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+_endpoint_from_view_func	flask/blueprints.py	/^from .helpers import _PackageBoundObject, _endpoint_from_view_func$/;"	i
+_endpoint_from_view_func	flask/helpers.py	/^def _endpoint_from_view_func(view_func):$/;"	f
+_fail	flask/sessions.py	/^    def _fail(self, *args, **kwargs):$/;"	m	class:NullSession
+_fail	flask/signals.py	/^        def _fail(self, *args, **kwargs):$/;"	m	class:_FakeSignal
+_find_app	flask/globals.py	/^def _find_app():$/;"	f
+_gc_lock	flask/testsuite/regression.py	/^_gc_lock = threading.Lock()$/;"	v
+_get_data	flask/wrappers.py	/^def _get_data(req, cache):$/;"	f
+_get_error_handlers	flask/app.py	/^    def _get_error_handlers(self):$/;"	m	class:Flask
+_get_g	flask/ctx.py	/^    def _get_g(self):$/;"	m	class:RequestContext
+_get_permanent	flask/sessions.py	/^    def _get_permanent(self):$/;"	m	class:SessionMixin
+_get_request_globals_class	flask/app.py	/^    def _get_request_globals_class(self):$/;"	m	class:Flask
+_get_static_folder	flask/helpers.py	/^    def _get_static_folder(self):$/;"	m	class:_PackageBoundObject
+_get_static_url_path	flask/helpers.py	/^    def _get_static_url_path(self):$/;"	m	class:_PackageBoundObject
+_got_registered_once	flask/blueprints.py	/^    _got_registered_once = False$/;"	v	class:Blueprint
+_identity	flask/_compat.py	/^_identity = lambda x: x$/;"	v
+_internal_mark_re	docs/flaskdocext.py	/^_internal_mark_re = re.compile(r'^\\s*:internal:\\s*$(?m)')$/;"	v
+_is_old_module	flask/wrappers.py	/^    _is_old_module = False$/;"	v	class:Request
+_iter_loaders	flask/templating.py	/^    def _iter_loaders(self, template):$/;"	m	class:DispatchingJinjaLoader
+_json	flask/json.py	/^    from itsdangerous import json as _json$/;"	i
+_json	flask/json.py	/^    from itsdangerous import simplejson as _json$/;"	i
+_load_arg_defaults	flask/json.py	/^def _load_arg_defaults(kwargs):$/;"	f
+_load_form_data	flask/wrappers.py	/^    def _load_form_data(self):$/;"	m	class:Request
+_logger_lock	flask/app.py	/^_logger_lock = Lock()$/;"	v
+_lookup_app_object	flask/globals.py	/^def _lookup_app_object(name):$/;"	f
+_lookup_req_object	flask/globals.py	/^def _lookup_req_object(name):$/;"	f
+_make_timedelta	flask/app.py	/^def _make_timedelta(value):$/;"	f
+_missing	flask/helpers.py	/^_missing = object()$/;"	v
+_missing	flask/wrappers.py	/^_missing = object()$/;"	v
+_os_alt_seps	flask/helpers.py	/^_os_alt_seps = list(sep for sep in [os.path.sep, os.path.altsep]$/;"	v
+_register_error_handler	flask/app.py	/^    def _register_error_handler(self, key, code_or_exception, f):$/;"	m	class:Flask
+_render	flask/templating.py	/^def _render(template, context, app):$/;"	f
+_request_ctx_stack	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+_request_ctx_stack	flask/app.py	/^from .globals import _request_ctx_stack, request, session, g$/;"	i
+_request_ctx_stack	flask/ctx.py	/^from .globals import _request_ctx_stack, _app_ctx_stack$/;"	i
+_request_ctx_stack	flask/globals.py	/^_request_ctx_stack = LocalStack()$/;"	v
+_request_ctx_stack	flask/helpers.py	/^     current_app, request$/;"	i
+_request_ctx_stack	flask/templating.py	/^from .globals import _request_ctx_stack, _app_ctx_stack$/;"	i
+_request_ctx_stack	flask/testing.py	/^from flask import _request_ctx_stack$/;"	i
+_request_ctx_stack	flask/wrappers.py	/^from .globals import _request_ctx_stack$/;"	i
+_samefile	flask/testsuite/__init__.py	/^    def _samefile(x, y):$/;"	f	function:add_to_path
+_set_error_handlers	flask/app.py	/^    def _set_error_handlers(self, value):$/;"	m	class:Flask
+_set_g	flask/ctx.py	/^    def _set_g(self, value):$/;"	m	class:RequestContext
+_set_permanent	flask/sessions.py	/^    def _set_permanent(self, value):$/;"	m	class:SessionMixin
+_set_request_globals_class	flask/app.py	/^    def _set_request_globals_class(self, value):$/;"	m	class:Flask
+_set_static_folder	flask/helpers.py	/^    def _set_static_folder(self, value):$/;"	m	class:_PackageBoundObject
+_set_static_url_path	flask/helpers.py	/^    def _set_static_url_path(self, value):$/;"	m	class:_PackageBoundObject
+_signals	flask/signals.py	/^_signals = Namespace()$/;"	v
+_slash_escape	flask/json.py	/^_slash_escape = '\\\\\/' not in _json.dumps('\/')$/;"	v
+_tag	flask/sessions.py	/^        def _tag(value):$/;"	f	function:TaggedJSONSerializer.dumps
+_wrap_reader_for_text	flask/json.py	/^def _wrap_reader_for_text(fp, encoding):$/;"	f
+_wrap_writer_for_text	flask/json.py	/^def _wrap_writer_for_text(fp, encoding):$/;"	f
+abort	examples/blueprintexample/simple_page/simple_page.py	/^from flask import Blueprint, render_template, abort$/;"	i
+abort	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+abort	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+abort	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+abort	flask/__init__.py	/^from werkzeug.exceptions import abort$/;"	i
+about	flask/testsuite/basic.py	/^        def about():$/;"	f	function:BasicFunctionalityTestCase.test_url_processors
+about	flask/testsuite/blueprints.py	/^        def about():$/;"	f	function:BlueprintTestCase.test_blueprint_url_processors
+absolute_import	flask/logging.py	/^from __future__ import absolute_import$/;"	i
+accept_file	flask/testsuite/basic.py	/^        def accept_file():$/;"	f	function:BasicFunctionalityTestCase.test_max_content_length
+add	flask/testsuite/helpers.py	/^        def add():$/;"	f	function:JSONTestCase.test_json_attr
+add_app_template_filter	flask/blueprints.py	/^    def add_app_template_filter(self, f, name=None):$/;"	m	class:Blueprint
+add_app_template_global	flask/blueprints.py	/^    def add_app_template_global(self, f, name=None):$/;"	m	class:Blueprint
+add_app_template_test	flask/blueprints.py	/^    def add_app_template_test(self, f, name=None):$/;"	m	class:Blueprint
+add_entry	examples/flaskr/flaskr.py	/^def add_entry():$/;"	f
+add_language_code	flask/testsuite/basic.py	/^        def add_language_code(endpoint, values):$/;"	f	function:BasicFunctionalityTestCase.test_url_processors
+add_language_code	flask/testsuite/blueprints.py	/^        def add_language_code(endpoint, values):$/;"	f	function:BlueprintTestCase.test_blueprint_url_processors
+add_message	examples/minitwit/minitwit.py	/^def add_message():$/;"	f
+add_message	examples/minitwit/minitwit_tests.py	/^    def add_message(self, text):$/;"	m	class:MiniTwitTestCase
+add_numbers	examples/jqueryexample/jqueryexample.py	/^def add_numbers():$/;"	f
+add_template_filter	flask/app.py	/^    def add_template_filter(self, f, name=None):$/;"	m	class:Flask
+add_template_global	flask/app.py	/^    def add_template_global(self, f, name=None):$/;"	m	class:Flask
+add_template_test	flask/app.py	/^    def add_template_test(self, f, name=None):$/;"	m	class:Flask
+add_to_path	flask/testsuite/__init__.py	/^def add_to_path(path):$/;"	f
+add_to_path	flask/testsuite/examples.py	/^from flask.testsuite import add_to_path$/;"	i
+add_url_rule	flask/app.py	/^    def add_url_rule(self, rule, endpoint=None, view_func=None, **options):$/;"	m	class:Flask
+add_url_rule	flask/blueprints.py	/^    def add_url_rule(self, rule, endpoint=None, view_func=None, **options):$/;"	m	class:Blueprint
+add_url_rule	flask/blueprints.py	/^    def add_url_rule(self, rule, endpoint=None, view_func=None, **options):$/;"	m	class:BlueprintSetupState
+add_x_parachute	flask/testsuite/views.py	/^        def add_x_parachute(f):$/;"	f	function:ViewTestCase.test_view_decorators
+adler32	flask/helpers.py	/^from zlib import adler32$/;"	i
+admin	flask/testsuite/test_apps/blueprintapp/__init__.py	/^from blueprintapp.apps.admin import admin$/;"	i
+admin	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^admin = Blueprint('admin', __name__, url_prefix='\/admin',$/;"	v
+admin	flask/testsuite/test_apps/moduleapp/__init__.py	/^from moduleapp.apps.admin import admin$/;"	i
+admin	flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py	/^admin = Module(__name__, url_prefix='\/admin')$/;"	v
+admin_index	flask/testsuite/blueprints.py	/^        def admin_index():$/;"	f	function:ModuleTestCase.test_basic_module
+admin_index	flask/testsuite/blueprints.py	/^        def admin_index():$/;"	f	function:ModuleTestCase.test_context_processors
+admin_index	flask/testsuite/blueprints.py	/^        def admin_index():$/;"	f	function:ModuleTestCase.test_request_processing
+admin_login	flask/testsuite/blueprints.py	/^        def admin_login():$/;"	f	function:ModuleTestCase.test_basic_module
+admin_logout	flask/testsuite/blueprints.py	/^        def admin_logout():$/;"	f	function:ModuleTestCase.test_basic_module
+after1	flask/testsuite/basic.py	/^        def after1(response):$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+after2	flask/testsuite/basic.py	/^        def after2(response):$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+after_admin_request	flask/testsuite/blueprints.py	/^        def after_admin_request(response):$/;"	f	function:ModuleTestCase.test_request_processing
+after_app_request	flask/blueprints.py	/^    def after_app_request(self, f):$/;"	m	class:Blueprint
+after_request	flask/app.py	/^    def after_request(self, f):$/;"	m	class:Flask
+after_request	flask/blueprints.py	/^    def after_request(self, f):$/;"	m	class:Blueprint
+after_request	flask/testsuite/basic.py	/^        def after_request(response):$/;"	f	function:BasicFunctionalityTestCase.test_request_processing
+after_request	flask/testsuite/blueprints.py	/^        def after_request(response):$/;"	f	function:ModuleTestCase.test_request_processing
+after_request	flask/testsuite/helpers.py	/^        def after_request(response):$/;"	f	function:LoggingTestCase.test_processor_exceptions
+after_request_handler	flask/testsuite/signals.py	/^        def after_request_handler(response):$/;"	f	function:SignalsTestCase.test_request_signals
+after_request_signal	flask/testsuite/signals.py	/^        def after_request_signal(sender, response):$/;"	f	function:SignalsTestCase.test_request_signals
+after_this_request	flask/__init__.py	/^     after_this_request, copy_current_request_context$/;"	i
+after_this_request	flask/ctx.py	/^def after_this_request(f):$/;"	f
+always_first	flask/testsuite/basic.py	/^        def always_first():$/;"	f	function:BasicFunctionalityTestCase.test_max_content_length
+app	examples/blueprintexample/blueprintexample.py	/^app = Flask(__name__)$/;"	v
+app	examples/flaskr/flaskr.py	/^app = Flask(__name__)$/;"	v
+app	examples/jqueryexample/jqueryexample.py	/^app = Flask(__name__)$/;"	v
+app	examples/minitwit/minitwit.py	/^app = Flask(__name__)$/;"	v
+app	examples/persona/persona.py	/^app = Flask(__name__)$/;"	v
+app	flask/testsuite/blueprints.py	/^        from blueprintapp import app$/;"	i
+app	flask/testsuite/config.py	/^        from config_module_app import app$/;"	i
+app	flask/testsuite/config.py	/^        from config_package_app import app$/;"	i
+app	flask/testsuite/config.py	/^        from main_app import app$/;"	i
+app	flask/testsuite/test_apps/blueprintapp/__init__.py	/^app = Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/config_module_app.py	/^app = flask.Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/config_package_app/__init__.py	/^app = flask.Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py	/^app = flask.Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py	/^app = flask.Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/main_app.py	/^app = flask.Flask('__main__')$/;"	v
+app	flask/testsuite/test_apps/moduleapp/__init__.py	/^app = Flask(__name__)$/;"	v
+app	flask/testsuite/test_apps/path/installed_package/__init__.py	/^app = flask.Flask(__name__)$/;"	v
+app_context	flask/app.py	/^    def app_context(self):$/;"	m	class:Flask
+app_context_processor	flask/blueprints.py	/^    def app_context_processor(self, f):$/;"	m	class:Blueprint
+app_ctx_globals_class	flask/app.py	/^    app_ctx_globals_class = _AppCtxGlobals$/;"	v	class:Flask
+app_errorhandler	flask/blueprints.py	/^    def app_errorhandler(self, code):$/;"	m	class:Blueprint
+app_forbidden	flask/testsuite/blueprints.py	/^        def app_forbidden(e):$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+app_index	flask/testsuite/blueprints.py	/^        def app_index():$/;"	f	function:BlueprintTestCase.test_dotted_names_from_app
+app_template_filter	flask/blueprints.py	/^    def app_template_filter(self, name=None):$/;"	m	class:Blueprint
+app_template_global	flask/blueprints.py	/^    def app_template_global(self, name=None):$/;"	m	class:Blueprint
+app_template_test	flask/blueprints.py	/^    def app_template_test(self, name=None):$/;"	m	class:Blueprint
+app_url_defaults	flask/blueprints.py	/^    def app_url_defaults(self, f):$/;"	m	class:Blueprint
+app_url_value_preprocessor	flask/blueprints.py	/^    def app_url_value_preprocessor(self, f):$/;"	m	class:Blueprint
+appcontext_popped	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+appcontext_popped	flask/ctx.py	/^from .signals import appcontext_pushed, appcontext_popped$/;"	i
+appcontext_popped	flask/signals.py	/^appcontext_popped = _signals.signal('appcontext-popped')$/;"	v
+appcontext_pushed	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+appcontext_pushed	flask/ctx.py	/^from .signals import appcontext_pushed, appcontext_popped$/;"	i
+appcontext_pushed	flask/signals.py	/^appcontext_pushed = _signals.signal('appcontext-pushed')$/;"	v
+appcontext_tearing_down	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+appcontext_tearing_down	flask/app.py	/^     request_tearing_down, appcontext_tearing_down$/;"	i
+appcontext_tearing_down	flask/signals.py	/^appcontext_tearing_down = _signals.signal('appcontext-tearing-down')$/;"	v
+apprunner	flask/testsuite/basic.py	/^        def apprunner(configkey):$/;"	f	function:BasicFunctionalityTestCase.test_exception_propagation
+as_view	flask/views.py	/^    def as_view(cls, name, *class_args, **class_kwargs):$/;"	m	class:View
+assertIn	flask/testsuite/__init__.py	/^        def assertIn(self, x, y):$/;"	f	function:FlaskTestCase.assert_not_in
+assertNotIn	flask/testsuite/__init__.py	/^        def assertNotIn(self, x, y):$/;"	f	function:FlaskTestCase.assert_not_in
+assert_equal	flask/testsuite/__init__.py	/^    def assert_equal(self, x, y):$/;"	m	class:FlaskTestCase
+assert_false	flask/testsuite/__init__.py	/^    def assert_false(self, x, msg=None):$/;"	m	class:FlaskTestCase
+assert_in	flask/testsuite/__init__.py	/^    def assert_in(self, x, y):$/;"	m	class:FlaskTestCase
+assert_no_leak	flask/testsuite/regression.py	/^    def assert_no_leak(self):$/;"	m	class:MemoryTestCase
+assert_not_in	flask/testsuite/__init__.py	/^    def assert_not_in(self, x, y):$/;"	m	class:FlaskTestCase
+assert_raises	flask/testsuite/__init__.py	/^    def assert_raises(self, exc_type, callable=None, *args, **kwargs):$/;"	m	class:FlaskTestCase
+assert_true	flask/testsuite/__init__.py	/^    def assert_true(self, x, msg=None):$/;"	m	class:FlaskTestCase
+attach_enctype_error_multidict	flask/debughelpers.py	/^def attach_enctype_error_multidict(request):$/;"	f
+attach_enctype_error_multidict	flask/wrappers.py	/^from .debughelpers import attach_enctype_error_multidict$/;"	i
+attach_something	flask/testsuite/basic.py	/^        def attach_something():$/;"	f	function:BasicFunctionalityTestCase.test_before_request_and_routing_errors
+author	setup.py	/^    author='Armin Ronacher',$/;"	v	class:run_audit
+author_email	setup.py	/^    author_email='armin.ronacher@active-4.com',$/;"	v	class:run_audit
+auto_find_instance_path	flask/app.py	/^    def auto_find_instance_path(self):$/;"	m	class:Flask
+auto_pop	flask/ctx.py	/^    def auto_pop(self, exc):$/;"	m	class:RequestContext
+b	flask/testsuite/test_apps/flask_broken/__init__.py	/^import flask.ext.broken.b$/;"	i
+b64decode	flask/sessions.py	/^from base64 import b64encode, b64decode$/;"	i
+b64encode	flask/sessions.py	/^from base64 import b64encode, b64decode$/;"	i
+backend_forbidden	flask/testsuite/blueprints.py	/^        def backend_forbidden(e):$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+backend_index	flask/testsuite/blueprints.py	/^        def backend_index():$/;"	f	function:BlueprintTestCase.test_dotted_names
+backend_no	flask/testsuite/blueprints.py	/^        def backend_no():$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+background_color	docs/_themes/flask_theme_support.py	/^    background_color = "#f8f8f8"$/;"	v	class:FlaskyStyle
+background_color	docs/flaskext.py	/^    background_color = "#f8f8f8"$/;"	v	class:FlaskyStyle
+bar	flask/testsuite/basic.py	/^        def bar():$/;"	f	function:BasicFunctionalityTestCase.test_endpoint_decorator
+bar	flask/testsuite/basic.py	/^        def bar():$/;"	f	function:BasicFunctionalityTestCase.test_werkzeug_routing
+bar	flask/testsuite/basic.py	/^        def bar():$/;"	f	function:SubdomainTestCase.test_module_subdomain_support
+bar	flask/testsuite/blueprints.py	/^        def bar():$/;"	f	function:ModuleTestCase.test_endpoint_decorator
+bar	flask/testsuite/blueprints.py	/^        def bar(bar):$/;"	f	function:BlueprintTestCase.test_blueprint_url_definitions
+bar_foo	flask/testsuite/blueprints.py	/^        def bar_foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint
+before1	flask/testsuite/basic.py	/^        def before1():$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+before2	flask/testsuite/basic.py	/^        def before2():$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+before_admin_request	flask/testsuite/blueprints.py	/^        def before_admin_request():$/;"	f	function:ModuleTestCase.test_request_processing
+before_app_first_request	flask/blueprints.py	/^    def before_app_first_request(self, f):$/;"	m	class:Blueprint
+before_app_request	flask/blueprints.py	/^    def before_app_request(self, f):$/;"	m	class:Blueprint
+before_first_request	flask/app.py	/^    def before_first_request(self, f):$/;"	m	class:Flask
+before_request	examples/minitwit/minitwit.py	/^def before_request():$/;"	f
+before_request	flask/app.py	/^    def before_request(self, f):$/;"	m	class:Flask
+before_request	flask/blueprints.py	/^    def before_request(self, f):$/;"	m	class:Blueprint
+before_request	flask/testsuite/basic.py	/^        def before_request():$/;"	f	function:BasicFunctionalityTestCase.test_request_processing
+before_request	flask/testsuite/blueprints.py	/^        def before_request():$/;"	f	function:ModuleTestCase.test_request_processing
+before_request	flask/testsuite/helpers.py	/^        def before_request():$/;"	f	function:LoggingTestCase.test_processor_exceptions
+before_request_handler	flask/testsuite/signals.py	/^        def before_request_handler():$/;"	f	function:SignalsTestCase.test_request_signals
+before_request_signal	flask/testsuite/signals.py	/^        def before_request_signal(sender):$/;"	f	function:SignalsTestCase.test_request_signals
+blueprint	flask/wrappers.py	/^    def blueprint(self):$/;"	m	class:Request
+blueprint_is_module	flask/app.py	/^from .module import blueprint_is_module$/;"	i
+blueprint_is_module	flask/ctx.py	/^from .module import blueprint_is_module$/;"	i
+blueprint_is_module	flask/module.py	/^def blueprint_is_module(bp):$/;"	f
+blueprint_is_module	flask/templating.py	/^from .module import blueprint_is_module$/;"	i
+blueprintexample	examples/blueprintexample/blueprintexample_test.py	/^import blueprintexample$/;"	i
+boolean	flask/testsuite/blueprints.py	/^        def boolean(value):$/;"	f	function:BlueprintTestCase.test_add_template_test_with_template
+boolean	flask/testsuite/blueprints.py	/^        def boolean(value):$/;"	f	function:BlueprintTestCase.test_template_test_after_route_with_template
+boolean	flask/testsuite/blueprints.py	/^        def boolean(value):$/;"	f	function:BlueprintTestCase.test_template_test_with_template
+boolean	flask/testsuite/templating.py	/^        def boolean(value):$/;"	f	function:TemplatingTestCase.test_add_template_test
+boolean	flask/testsuite/templating.py	/^        def boolean(value):$/;"	f	function:TemplatingTestCase.test_add_template_test_with_template
+boolean	flask/testsuite/templating.py	/^        def boolean(value):$/;"	f	function:TemplatingTestCase.test_template_test
+boolean	flask/testsuite/templating.py	/^        def boolean(value):$/;"	f	function:TemplatingTestCase.test_template_test_with_template
+bp_defaults	flask/testsuite/basic.py	/^        def bp_defaults(endpoint, values):$/;"	f	function:BasicFunctionalityTestCase.test_inject_blueprint_url_defaults
+broken	flask/testsuite/basic.py	/^            def broken():$/;"	f	function:BasicFunctionalityTestCase.test_debug_mode_complains_after_first_request.index
+broken	flask/testsuite/ext.py	/^                import flask.ext.broken$/;"	i
+broken	flask/testsuite/ext.py	/^            import flask.ext.broken$/;"	i
+broken	flask/testsuite/test_apps/flask_broken/__init__.py	/^import flask.ext.broken.b$/;"	i
+catch_stderr	flask/testsuite/__init__.py	/^def catch_stderr():$/;"	f
+catch_stderr	flask/testsuite/helpers.py	/^from flask.testsuite import FlaskTestCase, catch_warnings, catch_stderr$/;"	i
+catch_warnings	flask/testsuite/__init__.py	/^def catch_warnings():$/;"	f
+catch_warnings	flask/testsuite/deprecations.py	/^from flask.testsuite import FlaskTestCase, catch_warnings$/;"	i
+catch_warnings	flask/testsuite/helpers.py	/^from flask.testsuite import FlaskTestCase, catch_warnings, catch_stderr$/;"	i
+catcher	flask/testsuite/basic.py	/^        def catcher(error):$/;"	f	function:BasicFunctionalityTestCase.test_max_content_length
+cc	flask/testsuite/helpers.py	/^            cc = parse_cache_control_header(rv.headers['Cache-Control'])$/;"	v	class:SendfileTestCase.test_static_file.StaticFileApp
+chain	flask/app.py	/^from itertools import chain$/;"	i
+check_password_hash	examples/minitwit/minitwit.py	/^from werkzeug import check_password_hash, generate_password_hash$/;"	i
+classifiers	setup.py	/^    classifiers=[$/;"	v	class:run_audit
+cleanup	flask/testsuite/appctx.py	/^        def cleanup(exception):$/;"	f	function:AppContextTestCase.test_app_tearing_down
+close	flask/testsuite/helpers.py	/^            def close(self):$/;"	m	class:StreamingTestCase.test_streaming_with_context_and_custom_close.Wrapper
+close_database	examples/minitwit/minitwit.py	/^def close_database(exception):$/;"	f
+close_db_connection	examples/flaskr/flaskr.py	/^def close_db_connection(exception):$/;"	f
+cls	flask/app.py	/^            from flask.testing import FlaskClient as cls$/;"	i
+cmdclass	setup.py	/^    cmdclass={'audit': run_audit},$/;"	v	class:run_audit
+codecs	flask/testsuite/helpers.py	/^        import codecs$/;"	i
+common_object_test	flask/testsuite/config.py	/^    def common_object_test(self, app):$/;"	m	class:ConfigTestCase
+common_test	flask/testsuite/views.py	/^    def common_test(self, app):$/;"	m	class:ViewTestCase
+context_processor	flask/app.py	/^    def context_processor(self, f):$/;"	m	class:Flask
+context_processor	flask/blueprints.py	/^    def context_processor(self, f):$/;"	m	class:Blueprint
+context_processor	flask/testsuite/templating.py	/^        def context_processor():$/;"	f	function:TemplatingTestCase.test_context_processing
+context_processor	flask/testsuite/templating.py	/^        def context_processor():$/;"	f	function:TemplatingTestCase.test_iterable_loader
+context_processor	flask/testsuite/templating.py	/^        def context_processor():$/;"	f	function:TemplatingTestCase.test_request_less_rendering
+contextmanager	flask/testing.py	/^from contextlib import contextmanager$/;"	i
+contextmanager	flask/testsuite/__init__.py	/^from contextlib import contextmanager$/;"	i
+contextmanager	flask/testsuite/config.py	/^from contextlib import contextmanager$/;"	i
+copy	flask/ctx.py	/^    def copy(self):$/;"	m	class:RequestContext
+copy_current_request_context	flask/__init__.py	/^     after_this_request, copy_current_request_context$/;"	i
+copy_current_request_context	flask/ctx.py	/^def copy_current_request_context(f):$/;"	f
+copyright	docs/conf.py	/^copyright = u'2013, Armin Ronacher'$/;"	v
+create_global_jinja_loader	flask/app.py	/^    def create_global_jinja_loader(self):$/;"	m	class:Flask
+create_global_jinja_loader	flask/testsuite/templating.py	/^            def create_global_jinja_loader(self):$/;"	m	class:TemplatingTestCase.test_custom_template_loader.MyFlask
+create_jinja_environment	flask/app.py	/^    def create_jinja_environment(self):$/;"	m	class:Flask
+create_logger	flask/app.py	/^            from flask.logging import create_logger$/;"	i
+create_logger	flask/logging.py	/^def create_logger(app):$/;"	f
+create_url_adapter	flask/app.py	/^    def create_url_adapter(self, request):$/;"	m	class:Flask
+current_app	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+current_app	flask/globals.py	/^current_app = LocalProxy(_find_app)$/;"	v
+current_app	flask/helpers.py	/^     current_app, request$/;"	i
+current_app	flask/json.py	/^from .globals import current_app, request$/;"	i
+datetime	examples/minitwit/minitwit.py	/^from datetime import datetime$/;"	i
+datetime	flask/json.py	/^from datetime import datetime$/;"	i
+datetime	flask/sessions.py	/^from datetime import datetime$/;"	i
+datetime	flask/testsuite/basic.py	/^from datetime import datetime$/;"	i
+debug	flask/app.py	/^    debug = ConfigAttribute('DEBUG')$/;"	v	class:Flask
+debug_log_format	flask/app.py	/^    debug_log_format = ($/;"	v	class:Flask
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.endpoint
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.errorhandler
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.route
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.template_filter
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.template_global
+decorator	flask/app.py	/^        def decorator(f):$/;"	f	function:Flask.template_test
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.app_errorhandler
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.app_template_filter
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.app_template_global
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.app_template_test
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.endpoint
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.errorhandler
+decorator	flask/blueprints.py	/^        def decorator(f):$/;"	f	function:Blueprint.route
+decorator	flask/helpers.py	/^        def decorator(*args, **kwargs):$/;"	f	function:stream_with_context
+decorators	flask/testsuite/views.py	/^            decorators = [add_x_parachute]$/;"	v	class:ViewTestCase.test_view_decorators.Index
+decorators	flask/views.py	/^    decorators = []$/;"	v	class:View
+default	flask/json.py	/^    def default(self, o):$/;"	m	class:JSONEncoder
+default	flask/testsuite/helpers.py	/^            def default(self, o):$/;"	m	class:JSONTestCase.test_json_customization.MyEncoder
+default_config	flask/app.py	/^    default_config = ImmutableDict({$/;"	v	class:Flask
+default_mimetype	flask/wrappers.py	/^    default_mimetype = 'text\/html'$/;"	v	class:Response
+default_style	docs/_themes/flask_theme_support.py	/^    default_style = ""$/;"	v	class:FlaskyStyle
+default_style	docs/flaskext.py	/^    default_style = ""$/;"	v	class:FlaskyStyle
+delete	flask/testsuite/views.py	/^            def delete(self):$/;"	m	class:ViewTestCase.test_view_inheritance.BetterIndex
+description	setup.py	/^    description = "Audit source code with PyFlakes"$/;"	v	class:run_audit
+description	setup.py	/^    description='A microframework based on Werkzeug, Jinja2 '$/;"	v	class:run_audit
+digest_method	flask/sessions.py	/^    digest_method = staticmethod(hashlib.sha1)$/;"	v	class:SecureCookieSessionInterface
+dispatch_request	flask/app.py	/^    def dispatch_request(self):$/;"	m	class:Flask
+dispatch_request	flask/testsuite/views.py	/^            def dispatch_request(self):$/;"	m	class:ViewTestCase.test_basic_view.Index
+dispatch_request	flask/testsuite/views.py	/^            def dispatch_request(self):$/;"	m	class:ViewTestCase.test_endpoint_override.Index
+dispatch_request	flask/testsuite/views.py	/^            def dispatch_request(self):$/;"	m	class:ViewTestCase.test_view_decorators.Index
+dispatch_request	flask/views.py	/^    def dispatch_request(self):$/;"	m	class:View
+dispatch_request	flask/views.py	/^    def dispatch_request(self, *args, **kwargs):$/;"	m	class:MethodView
+do_teardown_appcontext	flask/app.py	/^    def do_teardown_appcontext(self, exc=None):$/;"	m	class:Flask
+do_teardown_request	flask/app.py	/^    def do_teardown_request(self, exc=None):$/;"	m	class:Flask
+dump	flask/json.py	/^def dump(obj, fp, **kwargs):$/;"	f
+dump_session_contents	flask/testsuite/basic.py	/^        def dump_session_contents():$/;"	f	function:BasicFunctionalityTestCase.test_session_special_types
+dump_session_contents	flask/testsuite/basic.py	/^        def dump_session_contents():$/;"	f	function:BasicFunctionalityTestCase.test_session_stored_last
+dumps	flask/json.py	/^def dumps(obj, **kwargs):$/;"	f
+dumps	flask/sessions.py	/^    def dumps(self, value):$/;"	m	class:TaggedJSONSerializer
+egg	flask/testsuite/config.py	/^            import site_egg # in SiteEgg.egg$/;"	i
+emit	flask/logging.py	/^        def emit(x, record):$/;"	m	class:create_logger.DebugHandler
+emits_module_deprecation_warning	flask/testsuite/__init__.py	/^def emits_module_deprecation_warning(f):$/;"	f
+emits_module_deprecation_warning	flask/testsuite/basic.py	/^from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning$/;"	i
+emits_module_deprecation_warning	flask/testsuite/blueprints.py	/^from flask.testsuite import FlaskTestCase, emits_module_deprecation_warning$/;"	i
+enable_modules	flask/app.py	/^    enable_modules = True$/;"	v	class:Flask
+end	docs/make.bat	/^:end$/;"	l
+end_of_request	flask/testsuite/reqctx.py	/^        def end_of_request(exception):$/;"	f	function:RequestContextTestCase.test_teardown_on_pop
+endpoint	flask/app.py	/^    def endpoint(self, endpoint):$/;"	m	class:Flask
+endpoint	flask/blueprints.py	/^    def endpoint(self, endpoint):$/;"	m	class:Blueprint
+endpoint	flask/wrappers.py	/^    def endpoint(self):$/;"	m	class:Request
+ensure_clean_request_context	flask/testsuite/__init__.py	/^    def ensure_clean_request_context(self):$/;"	m	class:FlaskTestCase
+entries	examples/flaskr/schema.sql	/^create table entries ($/;"	t
+entries.id	examples/flaskr/schema.sql	/^  id integer primary key autoincrement,$/;"	F
+entries.text	examples/flaskr/schema.sql	/^  text text not null$/;"	F
+entries.title	examples/flaskr/schema.sql	/^  title text not null,$/;"	F
+errno	flask/config.py	/^import errno$/;"	i
+error	flask/testsuite/basic.py	/^        def error():$/;"	f	function:BasicFunctionalityTestCase.test_error_handling
+error	flask/testsuite/blueprints.py	/^        def error():$/;"	f	function:ModuleTestCase.test_error_handling
+error_handlers	flask/app.py	/^    error_handlers = property(_get_error_handlers, _set_error_handlers)$/;"	v	class:Flask
+errorhandler	flask/app.py	/^    def errorhandler(self, code_or_exception):$/;"	m	class:Flask
+errorhandler	flask/blueprints.py	/^    def errorhandler(self, code_or_exception):$/;"	m	class:Blueprint
+escape	flask/__init__.py	/^from jinja2 import Markup, escape$/;"	i
+exc	flask/testsuite/helpers.py	/^        def exc():$/;"	f	function:LoggingTestCase.test_debug_log
+exclude_patterns	docs/conf.py	/^exclude_patterns = ['_build']$/;"	v
+expect_exception	flask/testsuite/basic.py	/^        def expect_exception(f, *args, **kwargs):$/;"	f	function:BasicFunctionalityTestCase.test_missing_session
+ext	flask/testsuite/ext.py	/^                import flask.ext.broken$/;"	i
+ext	flask/testsuite/ext.py	/^            import flask.ext.broken$/;"	i
+ext	flask/testsuite/ext.py	/^        from flask import ext$/;"	i
+ext	flask/testsuite/test_apps/flask_broken/__init__.py	/^import flask.ext.broken.b$/;"	i
+ext_id	flask/testsuite/ext.py	/^        from flask.ext.newext_package import ext_id$/;"	i
+ext_id	flask/testsuite/ext.py	/^        from flask.ext.newext_simple import ext_id$/;"	i
+ext_id	flask/testsuite/ext.py	/^        from flask.ext.oldext_package import ext_id$/;"	i
+ext_id	flask/testsuite/ext.py	/^        from flask.ext.oldext_simple import ext_id$/;"	i
+ext_id	flask/testsuite/test_apps/flask_newext_package/__init__.py	/^ext_id = 'newext_package'$/;"	v
+ext_id	flask/testsuite/test_apps/flask_newext_simple.py	/^ext_id = 'newext_simple'$/;"	v
+ext_id	flask/testsuite/test_apps/flaskext/oldext_package/__init__.py	/^ext_id = 'oldext_package'$/;"	v
+ext_id	flask/testsuite/test_apps/flaskext/oldext_simple.py	/^ext_id = 'oldext_simple'$/;"	v
+extensions	docs/conf.py	/^extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx',$/;"	v
+fail	flask/testsuite/basic.py	/^        def fail():$/;"	f	function:BasicFunctionalityTestCase.test_trapping_of_all_http_exceptions
+fail	flask/testsuite/basic.py	/^        def fail():$/;"	f	function:BasicFunctionalityTestCase.test_trapping_of_bad_request_key_errors
+fail_func	flask/testsuite/basic.py	/^        def fail_func():$/;"	f	function:BasicFunctionalityTestCase.test_preserve_only_once
+fail_func	flask/testsuite/basic.py	/^        def fail_func():$/;"	f	function:BasicFunctionalityTestCase.test_preserve_remembers_exception
+fails	flask/testsuite/basic.py	/^        def fails():$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler_error
+finalize_options	setup.py	/^    def finalize_options(self):$/;"	m	class:run_audit
+find_all_tests	flask/testsuite/__init__.py	/^def find_all_tests(suite):$/;"	f
+find_module	flask/exthook.py	/^    def find_module(self, fullname, path=None):$/;"	m	class:ExtensionImporter
+find_modules	flask/testsuite/__init__.py	/^from werkzeug.utils import import_string, find_modules$/;"	i
+find_package	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+find_package	flask/helpers.py	/^def find_package(import_name):$/;"	f
+finish1	flask/testsuite/basic.py	/^        def finish1(exc):$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+finish2	flask/testsuite/basic.py	/^        def finish2(exc):$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+fire	flask/testsuite/regression.py	/^        def fire():$/;"	f	function:MemoryTestCase.test_memory_consumption
+flakes	setup.py	/^            import pyflakes.scripts.pyflakes as flakes$/;"	i
+flash	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+flash	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+flash	flask/__init__.py	/^    stream_with_context$/;"	i
+flash	flask/helpers.py	/^def flash(message, category='message'):$/;"	f
+flask	flask/testsuite/__init__.py	/^import flask$/;"	i
+flask	flask/testsuite/appctx.py	/^import flask$/;"	i
+flask	flask/testsuite/basic.py	/^import flask$/;"	i
+flask	flask/testsuite/blueprints.py	/^import flask$/;"	i
+flask	flask/testsuite/config.py	/^import flask$/;"	i
+flask	flask/testsuite/deprecations.py	/^import flask$/;"	i
+flask	flask/testsuite/ext.py	/^                import flask.ext.broken$/;"	i
+flask	flask/testsuite/ext.py	/^            import flask.ext.broken$/;"	i
+flask	flask/testsuite/helpers.py	/^import flask$/;"	i
+flask	flask/testsuite/regression.py	/^import flask$/;"	i
+flask	flask/testsuite/reqctx.py	/^import flask$/;"	i
+flask	flask/testsuite/signals.py	/^import flask$/;"	i
+flask	flask/testsuite/subclassing.py	/^import flask$/;"	i
+flask	flask/testsuite/templating.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/config_module_app.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/config_package_app/__init__.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/flask_broken/__init__.py	/^import flask.ext.broken.b$/;"	i
+flask	flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/main_app.py	/^import flask$/;"	i
+flask	flask/testsuite/test_apps/path/installed_package/__init__.py	/^import flask$/;"	i
+flask	flask/testsuite/testing.py	/^import flask$/;"	i
+flask	flask/testsuite/views.py	/^import flask$/;"	i
+flask	flask/testsuite/views.py	/^import flask.views$/;"	i
+flaskr	examples/flaskr/flaskr_tests.py	/^import flaskr$/;"	i
+follow_user	examples/minitwit/minitwit.py	/^def follow_user(username):$/;"	f
+follower	examples/minitwit/schema.sql	/^create table follower ($/;"	t
+follower.who_id	examples/minitwit/schema.sql	/^  who_id integer,$/;"	F
+follower.whom_id	examples/minitwit/schema.sql	/^  whom_id integer$/;"	F
+foo	flask/testsuite/basic.py	/^            def foo(response):$/;"	f	function:BasicFunctionalityTestCase.test_after_request_processing.index
+foo	flask/testsuite/basic.py	/^        def foo():$/;"	f	function:BasicFunctionalityTestCase.test_before_first_request_functions
+foo	flask/testsuite/basic.py	/^        def foo():$/;"	f	function:BasicFunctionalityTestCase.test_route_decorator_custom_endpoint
+foo	flask/testsuite/basic.py	/^        def foo():$/;"	f	function:BasicFunctionalityTestCase.test_routing_redirect_debugging
+foo	flask/testsuite/blueprints.py	/^        def foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint
+foo	flask/testsuite/blueprints.py	/^        def foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint_with_dots
+foo	flask/testsuite/blueprints.py	/^        def foo(bar, baz):$/;"	f	function:BlueprintTestCase.test_blueprint_url_definitions
+foo_bar	flask/testsuite/blueprints.py	/^            def foo_bar():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint_with_dots.foo
+foo_bar	flask/testsuite/blueprints.py	/^        def foo_bar():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint
+foo_bar_foo	flask/testsuite/blueprints.py	/^            def foo_bar_foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint_with_dots.foo
+foo_bar_foo	flask/testsuite/blueprints.py	/^        def foo_bar_foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint
+foo_foo_foo	flask/testsuite/blueprints.py	/^        def foo_foo_foo():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint_with_dots
+for_bar	flask/testsuite/basic.py	/^        def for_bar():$/;"	f	function:BasicFunctionalityTestCase.test_route_decorator_custom_endpoint
+for_bar_foo	flask/testsuite/basic.py	/^        def for_bar_foo():$/;"	f	function:BasicFunctionalityTestCase.test_route_decorator_custom_endpoint
+format_datetime	examples/minitwit/minitwit.py	/^def format_datetime(timestamp):$/;"	f
+from_envvar	flask/config.py	/^    def from_envvar(self, variable_name, silent=False):$/;"	m	class:Config
+from_object	flask/config.py	/^    def from_object(self, obj):$/;"	m	class:Config
+from_pyfile	flask/config.py	/^    def from_pyfile(self, filename, silent=False):$/;"	m	class:Config
+from_string	flask/testsuite/basic.py	/^        def from_string():$/;"	f	function:BasicFunctionalityTestCase.test_response_creation
+from_tuple	flask/testsuite/basic.py	/^        def from_tuple():$/;"	f	function:BasicFunctionalityTestCase.test_response_creation
+from_unicode	flask/testsuite/basic.py	/^        def from_unicode():$/;"	f	function:BasicFunctionalityTestCase.test_response_creation
+frontend	flask/testsuite/test_apps/blueprintapp/__init__.py	/^from blueprintapp.apps.frontend import frontend$/;"	i
+frontend	flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py	/^frontend = Blueprint('frontend', __name__, template_folder='templates')$/;"	v
+frontend	flask/testsuite/test_apps/moduleapp/__init__.py	/^from moduleapp.apps.frontend import frontend$/;"	i
+frontend	flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py	/^frontend = Module(__name__)$/;"	v
+frontend_forbidden	flask/testsuite/blueprints.py	/^        def frontend_forbidden(e):$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+frontend_index	flask/testsuite/blueprints.py	/^        def frontend_index():$/;"	f	function:BlueprintTestCase.test_dotted_names
+frontend_no	flask/testsuite/blueprints.py	/^        def frontend_no():$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+frontend_page2	flask/testsuite/blueprints.py	/^        def frontend_page2():$/;"	f	function:BlueprintTestCase.test_dotted_names
+full_dispatch_request	flask/app.py	/^    def full_dispatch_request(self):$/;"	m	class:Flask
+g	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+g	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+g	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+g	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+g	flask/app.py	/^from .globals import _request_ctx_stack, request, session, g$/;"	i
+g	flask/ctx.py	/^    g = property(_get_g, _set_g)$/;"	v	class:RequestContext
+g	flask/globals.py	/^g = LocalProxy(partial(_lookup_app_object, 'g'))$/;"	v
+g	flask/testsuite/reqctx.py	/^            def g():$/;"	f	function:RequestContextTestCase.test_greenlet_context_copying.index
+g	flask/testsuite/reqctx.py	/^            def g():$/;"	f	function:RequestContextTestCase.test_greenlet_context_copying_api.index
+gc	flask/testsuite/regression.py	/^import gc$/;"	i
+generate	flask/testsuite/helpers.py	/^            def generate():$/;"	f	function:StreamingTestCase.test_streaming_with_context.index
+generate	flask/testsuite/helpers.py	/^            def generate():$/;"	f	function:StreamingTestCase.test_streaming_with_context_and_custom_close.index
+generate	flask/testsuite/helpers.py	/^            def generate():$/;"	f	function:StreamingTestCase.test_streaming_with_context_as_decorator.index
+generate_password_hash	examples/minitwit/minitwit.py	/^from werkzeug import check_password_hash, generate_password_hash$/;"	i
+generator	flask/helpers.py	/^    def generator():$/;"	f	function:stream_with_context
+get	flask/ctx.py	/^    def get(self, name, default=None):$/;"	m	class:_AppCtxGlobals
+get	flask/testsuite/basic.py	/^        def get():$/;"	f	function:BasicFunctionalityTestCase.test_session
+get	flask/testsuite/helpers.py	/^            def get(self, id=None):$/;"	m	class:LoggingTestCase.test_url_with_method.MyView
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_explicit_head.Index
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_implicit_head.Index
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_method_based_view.Index
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_view_inheritance.Index
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_view_patching.Index
+get	flask/testsuite/views.py	/^            def get(self):$/;"	m	class:ViewTestCase.test_view_patching.Other
+getEffectiveLevel	flask/logging.py	/^        def getEffectiveLevel(x):$/;"	m	class:create_logger.DebugLogger
+getLogger	flask/logging.py	/^from logging import getLogger, StreamHandler, Formatter, getLoggerClass, DEBUG$/;"	i
+getLoggerClass	flask/logging.py	/^from logging import getLogger, StreamHandler, Formatter, getLoggerClass, DEBUG$/;"	i
+getRootSuite	flask/testsuite/__init__.py	/^    def getRootSuite(self):$/;"	m	class:BetterLoader
+get_cookie_domain	flask/sessions.py	/^    def get_cookie_domain(self, app):$/;"	m	class:SessionInterface
+get_cookie_httponly	flask/sessions.py	/^    def get_cookie_httponly(self, app):$/;"	m	class:SessionInterface
+get_cookie_path	flask/sessions.py	/^    def get_cookie_path(self, app):$/;"	m	class:SessionInterface
+get_cookie_secure	flask/sessions.py	/^    def get_cookie_secure(self, app):$/;"	m	class:SessionInterface
+get_current_user	examples/persona/persona.py	/^def get_current_user():$/;"	f
+get_db	examples/flaskr/flaskr.py	/^def get_db():$/;"	f
+get_db	examples/minitwit/minitwit.py	/^def get_db():$/;"	f
+get_expiration_time	flask/sessions.py	/^    def get_expiration_time(self, app, session):$/;"	m	class:SessionInterface
+get_flashed_messages	flask/__init__.py	/^    stream_with_context$/;"	i
+get_flashed_messages	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+get_flashed_messages	flask/helpers.py	/^def get_flashed_messages(with_categories=False, category_filter=[]):$/;"	f
+get_json	flask/wrappers.py	/^    def get_json(self, force=False, silent=False, cache=True):$/;"	m	class:Request
+get_loader	flask/testsuite/config.py	/^    def get_loader(*args, **kwargs):$/;"	f	function:patch_pkgutil_get_loader
+get_root_path	flask/helpers.py	/^def get_root_path(import_name):$/;"	f
+get_send_file_max_age	flask/helpers.py	/^    def get_send_file_max_age(self, filename):$/;"	m	class:_PackageBoundObject
+get_send_file_max_age	flask/testsuite/blueprints.py	/^            def get_send_file_max_age(self, filename):$/;"	m	class:BlueprintTestCase.test_default_static_cache_timeout.MyBlueprint
+get_send_file_max_age	flask/testsuite/helpers.py	/^            def get_send_file_max_age(self, filename):$/;"	m	class:SendfileTestCase.test_static_file.StaticFileApp
+get_session	flask/testsuite/testing.py	/^        def get_session():$/;"	f	function:TestToolsTestCase.test_redirect_keep_session
+get_signing_serializer	flask/sessions.py	/^    def get_signing_serializer(self, app):$/;"	m	class:SecureCookieSessionInterface
+get_source	flask/templating.py	/^    def get_source(self, environment, template):$/;"	m	class:DispatchingJinjaLoader
+get_stuff	flask/testsuite/templating.py	/^        def get_stuff():$/;"	f	function:TemplatingTestCase.test_add_template_global
+get_template_attribute	flask/__init__.py	/^    stream_with_context$/;"	i
+get_template_attribute	flask/helpers.py	/^def get_template_attribute(template_name, attribute):$/;"	f
+get_user_id	examples/minitwit/minitwit.py	/^def get_user_id(username):$/;"	f
+got_first_request	flask/app.py	/^    def got_first_request(self):$/;"	m	class:Flask
+got_request_exception	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+got_request_exception	flask/app.py	/^     request_tearing_down, appcontext_tearing_down$/;"	i
+got_request_exception	flask/signals.py	/^got_request_exception = _signals.signal('got-request-exception')$/;"	v
+gravatar_url	examples/minitwit/minitwit.py	/^def gravatar_url(email, size=80):$/;"	f
+greenlet	flask/testsuite/reqctx.py	/^    from greenlet import greenlet$/;"	i
+greenlet	flask/testsuite/reqctx.py	/^    greenlet = None$/;"	v
+handle_exception	flask/app.py	/^    def handle_exception(self, e):$/;"	m	class:Flask
+handle_foo	flask/testsuite/regression.py	/^        def handle_foo(e):$/;"	f	function:ExceptionTestCase.test_aborting
+handle_http_exception	flask/app.py	/^    def handle_http_exception(self, e):$/;"	m	class:Flask
+handle_my_exception	flask/testsuite/basic.py	/^        def handle_my_exception(e):$/;"	f	function:BasicFunctionalityTestCase.test_user_error_handling
+handle_url_build_error	flask/app.py	/^    def handle_url_build_error(self, error, endpoint, values):$/;"	m	class:Flask
+handle_user_exception	flask/app.py	/^    def handle_user_exception(self, e):$/;"	m	class:Flask
+handler	flask/testsuite/basic.py	/^        def handler(error, endpoint, values):$/;"	f	function:BasicFunctionalityTestCase.test_build_error_handler
+has_app_context	flask/__init__.py	/^     after_this_request, copy_current_request_context$/;"	i
+has_app_context	flask/ctx.py	/^def has_app_context():$/;"	f
+has_encoding	flask/testsuite/helpers.py	/^def has_encoding(name):$/;"	f
+has_request_context	flask/__init__.py	/^     after_this_request, copy_current_request_context$/;"	i
+has_request_context	flask/ctx.py	/^def has_request_context():$/;"	f
+has_static_folder	flask/helpers.py	/^    def has_static_folder(self):$/;"	m	class:_PackageBoundObject
+hashlib	flask/sessions.py	/^import hashlib$/;"	i
+head	flask/testsuite/views.py	/^            def head(self):$/;"	m	class:ViewTestCase.test_explicit_head.Index
+hello	flask/testsuite/basic.py	/^        def hello():$/;"	f	function:BasicFunctionalityTestCase.test_url_generation
+here	flask/testsuite/test_apps/config_module_app.py	/^here = os.path.abspath(os.path.dirname(__file__))$/;"	v
+here	flask/testsuite/test_apps/config_package_app/__init__.py	/^here = os.path.abspath(os.path.dirname(__file__))$/;"	v
+html_show_sphinx	docs/conf.py	/^html_show_sphinx = False$/;"	v
+html_sidebars	docs/conf.py	/^html_sidebars = {$/;"	v
+html_static_path	docs/conf.py	/^html_static_path = ['_static']$/;"	v
+html_theme	docs/conf.py	/^    html_theme = 'default'$/;"	v
+html_theme	docs/conf.py	/^html_theme = 'flask'$/;"	v
+html_theme_options	docs/conf.py	/^    html_theme_options = {}$/;"	v
+html_theme_options	docs/conf.py	/^html_theme_options = {$/;"	v
+html_theme_path	docs/conf.py	/^html_theme_path = ['_themes']$/;"	v
+html_use_modindex	docs/conf.py	/^html_use_modindex = False$/;"	v
+htmlhelp_basename	docs/conf.py	/^htmlhelp_basename = 'Flaskdoc'$/;"	v
+htmlsafe_dump	flask/json.py	/^def htmlsafe_dump(obj, fp, **kwargs):$/;"	f
+htmlsafe_dumps	flask/json.py	/^def htmlsafe_dumps(obj, **kwargs):$/;"	f
+http_date	flask/json.py	/^from werkzeug.http import http_date$/;"	i
+http_date	flask/sessions.py	/^from werkzeug.http import http_date, parse_date$/;"	i
+http_method_funcs	flask/views.py	/^http_method_funcs = frozenset(['get', 'post', 'head', 'options',$/;"	v
+imp	flask/config.py	/^import imp$/;"	i
+implements_to_string	flask/_compat.py	/^    def implements_to_string(cls):$/;"	f
+implements_to_string	flask/_compat.py	/^    implements_to_string = _identity$/;"	v
+implements_to_string	flask/debughelpers.py	/^from ._compat import implements_to_string$/;"	i
+import_string	flask/config.py	/^from werkzeug.utils import import_string$/;"	i
+import_string	flask/testsuite/__init__.py	/^from werkzeug.utils import import_string, find_modules$/;"	i
+in	flask/testsuite/config.py	/^            import site_egg # in SiteEgg.egg$/;"	i
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v	class:run_audit
+index	examples/jqueryexample/jqueryexample.py	/^def index():$/;"	f
+index	examples/persona/persona.py	/^def index():$/;"	f
+index	flask/testsuite/appctx.py	/^        def index():$/;"	f	function:AppContextTestCase.test_basic_url_generation
+index	flask/testsuite/appctx.py	/^        def index():$/;"	f	function:AppContextTestCase.test_context_refcounts
+index	flask/testsuite/basic.py	/^            def index():$/;"	f	function:BasicFunctionalityTestCase.test_exception_propagation.apprunner
+index	flask/testsuite/basic.py	/^            def index(self, test='a'):$/;"	m	class:SubdomainTestCase.test_multi_route_class_views.View
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_after_request_processing
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_before_after_request_order
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_debug_mode_complains_after_first_request
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_enctype_debug_helper
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_endpoint_decorator
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_error_handling
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_nonascii_pathinfo
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_options_handling_disabled
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_options_on_multiple_rules
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_options_work
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_request_dispatching
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_request_processing
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_expiration
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_using_application_root
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_using_server_name
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_using_server_name_and_port
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_using_server_name_port_and_path
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_session_using_session_settings
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_test_app_proper_environ
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_url_mapping
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_url_processors
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_user_error_handling
+index	flask/testsuite/basic.py	/^        def index():$/;"	f	function:BasicFunctionalityTestCase.test_werkzeug_routing
+index	flask/testsuite/basic.py	/^        def index(args):$/;"	f	function:BasicFunctionalityTestCase.test_custom_converters
+index	flask/testsuite/basic.py	/^        def index(test='a'):$/;"	f	function:SubdomainTestCase.test_multi_route_rules
+index	flask/testsuite/basic.py	/^        def index(user):$/;"	f	function:SubdomainTestCase.test_subdomain_matching
+index	flask/testsuite/basic.py	/^        def index(user):$/;"	f	function:SubdomainTestCase.test_subdomain_matching_with_ports
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_add_template_filter_with_name_and_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_add_template_filter_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_add_template_test_with_name_and_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_add_template_test_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_blueprint_url_processors
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_dotted_names_from_app
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_route_decorator_custom_endpoint
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_filter_after_route_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_filter_with_name_and_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_filter_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_test_after_route_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_test_with_name_and_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:BlueprintTestCase.test_template_test_with_template
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_basic_module
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_context_processors
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_default_endpoint_name
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_endpoint_decorator
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_error_handling
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_late_binding
+index	flask/testsuite/blueprints.py	/^        def index():$/;"	f	function:ModuleTestCase.test_request_processing
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:JSONTestCase.test_json_body_encoding
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:JSONTestCase.test_json_customization
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:JSONTestCase.test_json_key_sorting
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:JSONTestCase.test_modified_url_encoding
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_debug_log
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_exception_logging
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_processor_exceptions
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_url_for_with_anchor
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_url_for_with_scheme
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:LoggingTestCase.test_url_for_with_scheme_not_external
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:StreamingTestCase.test_streaming_with_context
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:StreamingTestCase.test_streaming_with_context_and_custom_close
+index	flask/testsuite/helpers.py	/^        def index():$/;"	f	function:StreamingTestCase.test_streaming_with_context_as_decorator
+index	flask/testsuite/regression.py	/^        def index():$/;"	f	function:ExceptionTestCase.test_aborting
+index	flask/testsuite/regression.py	/^        def index():$/;"	f	function:MemoryTestCase.test_memory_consumption
+index	flask/testsuite/reqctx.py	/^        def index():$/;"	f	function:RequestContextTestCase.test_context_binding
+index	flask/testsuite/reqctx.py	/^        def index():$/;"	f	function:RequestContextTestCase.test_greenlet_context_copying
+index	flask/testsuite/reqctx.py	/^        def index():$/;"	f	function:RequestContextTestCase.test_greenlet_context_copying_api
+index	flask/testsuite/reqctx.py	/^        def index():$/;"	f	function:RequestContextTestCase.test_manual_context_binding
+index	flask/testsuite/reqctx.py	/^        def index():$/;"	f	function:RequestContextTestCase.test_proper_test_request_context
+index	flask/testsuite/signals.py	/^        def index():$/;"	f	function:SignalsTestCase.test_appcontext_signals
+index	flask/testsuite/signals.py	/^        def index():$/;"	f	function:SignalsTestCase.test_flash_signal
+index	flask/testsuite/signals.py	/^        def index():$/;"	f	function:SignalsTestCase.test_request_exception_signal
+index	flask/testsuite/signals.py	/^        def index():$/;"	f	function:SignalsTestCase.test_request_signals
+index	flask/testsuite/signals.py	/^        def index():$/;"	f	function:SignalsTestCase.test_template_rendered
+index	flask/testsuite/subclassing.py	/^        def index():$/;"	f	function:FlaskSubclassingTestCase.test_suppressed_exception_logging
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_add_template_filter_with_name_and_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_add_template_filter_with_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_add_template_test_with_name_and_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_add_template_test_with_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_context_processing
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_custom_template_loader
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_escaping
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_iterable_loader
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_original_win
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_standard_context
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_template_filter_with_name_and_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_template_filter_with_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_template_test_with_name_and_template
+index	flask/testsuite/templating.py	/^        def index():$/;"	f	function:TemplatingTestCase.test_template_test_with_template
+index	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^def index():$/;"	f
+index	flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py	/^def index():$/;"	f
+index	flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py	/^def index():$/;"	f
+index	flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py	/^def index():$/;"	f
+index	flask/testsuite/testing.py	/^        def index():$/;"	f	function:TestToolsTestCase.test_environ_defaults
+index	flask/testsuite/testing.py	/^        def index():$/;"	f	function:TestToolsTestCase.test_environ_defaults_from_config
+index	flask/testsuite/testing.py	/^        def index():$/;"	f	function:TestToolsTestCase.test_redirect_keep_session
+index	flask/testsuite/testing.py	/^        def index():$/;"	f	function:TestToolsTestCase.test_session_transactions
+index	flask/testsuite/testing.py	/^        def index():$/;"	f	function:TestToolsTestCase.test_test_client_context_binding
+index2	flask/testsuite/basic.py	/^        def index2():$/;"	f	function:BasicFunctionalityTestCase.test_options_handling_disabled
+index2	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^def index2():$/;"	f
+index2	flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py	/^def index2():$/;"	f
+index_put	flask/testsuite/basic.py	/^        def index_put():$/;"	f	function:BasicFunctionalityTestCase.test_options_on_multiple_rules
+init_db	examples/flaskr/flaskr.py	/^def init_db():$/;"	f
+init_db	examples/minitwit/minitwit.py	/^def init_db():$/;"	f
+init_jinja_globals	flask/app.py	/^    def init_jinja_globals(self):$/;"	m	class:Flask
+initialize_options	setup.py	/^    def initialize_options(self):$/;"	m	class:run_audit
+inject_admin	flask/testsuite/blueprints.py	/^        def inject_admin():$/;"	f	function:ModuleTestCase.test_context_processors
+inject_all_module	flask/testsuite/blueprints.py	/^        def inject_all_module():$/;"	f	function:ModuleTestCase.test_context_processors
+inject_all_regular	flask/testsuite/blueprints.py	/^        def inject_all_regular():$/;"	f	function:ModuleTestCase.test_context_processors
+inject_url_defaults	flask/app.py	/^    def inject_url_defaults(self, endpoint, values):$/;"	m	class:Flask
+inspect	docs/flaskdocext.py	/^import inspect$/;"	i
+install	flask/exthook.py	/^    def install(self):$/;"	m	class:ExtensionImporter
+install_requires	setup.py	/^    install_requires=[$/;"	v	class:run_audit
+installed_package	flask/testsuite/config.py	/^                import installed_package$/;"	i
+installed_package	flask/testsuite/config.py	/^            import installed_package$/;"	i
+integer_types	flask/_compat.py	/^    integer_types = (int, )$/;"	v
+integer_types	flask/_compat.py	/^    integer_types = (int, long)$/;"	v
+integer_types	flask/app.py	/^from ._compat import reraise, string_types, text_type, integer_types$/;"	i
+internal_server_error	flask/testsuite/basic.py	/^        def internal_server_error(e):$/;"	f	function:BasicFunctionalityTestCase.test_error_handling
+internal_server_error	flask/testsuite/blueprints.py	/^        def internal_server_error(e):$/;"	f	function:ModuleTestCase.test_error_handling
+internal_server_error	flask/testsuite/helpers.py	/^        def internal_server_error(e):$/;"	f	function:LoggingTestCase.test_processor_exceptions
+intersphinx_mapping	docs/conf.py	/^intersphinx_mapping = {$/;"	v
+io	flask/json.py	/^import io$/;"	i
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_add_template_test
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_add_template_test_with_name
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_add_template_test_with_name_and_template
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_template_test
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_template_test_with_name
+is_boolean	flask/testsuite/blueprints.py	/^        def is_boolean(value):$/;"	f	function:BlueprintTestCase.test_template_test_with_name_and_template
+is_boolean	flask/testsuite/templating.py	/^        def is_boolean(value):$/;"	f	function:TemplatingTestCase.test_add_template_test_with_name
+is_boolean	flask/testsuite/templating.py	/^        def is_boolean(value):$/;"	f	function:TemplatingTestCase.test_add_template_test_with_name_and_template
+is_boolean	flask/testsuite/templating.py	/^        def is_boolean(value):$/;"	f	function:TemplatingTestCase.test_template_test_with_name
+is_boolean	flask/testsuite/templating.py	/^        def is_boolean(value):$/;"	f	function:TemplatingTestCase.test_template_test_with_name_and_template
+is_important_frame	flask/exthook.py	/^    def is_important_frame(self, important_module, tb):$/;"	m	class:ExtensionImporter
+is_important_traceback	flask/exthook.py	/^    def is_important_traceback(self, important_module, tb):$/;"	m	class:ExtensionImporter
+is_null_session	flask/sessions.py	/^    def is_null_session(self, obj):$/;"	m	class:SessionInterface
+iter_suites	flask/testsuite/__init__.py	/^def iter_suites():$/;"	f
+iteritems	flask/_compat.py	/^    iteritems = lambda d: d.iteritems()$/;"	v
+iteritems	flask/_compat.py	/^    iteritems = lambda d: iter(d.items())$/;"	v
+iteritems	flask/sessions.py	/^from ._compat import iteritems, text_type$/;"	i
+iteritems	flask/templating.py	/^from ._compat import itervalues, iteritems$/;"	i
+iterkeys	flask/_compat.py	/^    iterkeys = lambda d: d.iterkeys()$/;"	v
+iterkeys	flask/_compat.py	/^    iterkeys = lambda d: iter(d.keys())$/;"	v
+itervalues	flask/_compat.py	/^    itervalues = lambda d: d.itervalues()$/;"	v
+itervalues	flask/_compat.py	/^    itervalues = lambda d: iter(d.values())$/;"	v
+itervalues	flask/templating.py	/^from ._compat import itervalues, iteritems$/;"	i
+jinja_env	flask/app.py	/^    def jinja_env(self):$/;"	m	class:Flask
+jinja_loader	flask/helpers.py	/^    def jinja_loader(self):$/;"	m	class:_PackageBoundObject
+jinja_options	flask/app.py	/^    jinja_options = ImmutableDict($/;"	v	class:Flask
+json	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+json	flask/__init__.py	/^from . import json$/;"	i
+json	flask/app.py	/^from . import json$/;"	i
+json	flask/sessions.py	/^from . import Markup, json$/;"	i
+json	flask/wrappers.py	/^    def json(self):$/;"	m	class:Request
+json	flask/wrappers.py	/^from . import json$/;"	i
+json_available	flask/__init__.py	/^json_available = True$/;"	v
+json_decoder	flask/app.py	/^    json_decoder = json.JSONDecoder$/;"	v	class:Flask
+json_encoder	flask/app.py	/^    json_encoder = json.JSONEncoder$/;"	v	class:Flask
+jsonify	examples/jqueryexample/jqueryexample.py	/^from flask import Flask, jsonify, render_template, request$/;"	i
+jsonify	flask/__init__.py	/^jsonify = json.jsonify$/;"	v
+jsonify	flask/json.py	/^def jsonify(*args, **kwargs):$/;"	f
+key_derivation	flask/sessions.py	/^    key_derivation = 'hmac'$/;"	v	class:SecureCookieSessionInterface
+latex_additional_files	docs/conf.py	/^latex_additional_files = ['flaskstyle.sty', 'logo.pdf']$/;"	v
+latex_documents	docs/conf.py	/^latex_documents = [$/;"	v
+latex_elements	docs/conf.py	/^latex_elements = {$/;"	v
+latex_use_modindex	docs/conf.py	/^latex_use_modindex = False$/;"	v
+latex_use_parts	docs/conf.py	/^latex_use_parts = True$/;"	v
+license	setup.py	/^    license='BSD',$/;"	v	class:run_audit
+list_templates	flask/templating.py	/^    def list_templates(self):$/;"	m	class:DispatchingJinjaLoader
+load	flask/json.py	/^def load(fp, **kwargs):$/;"	f
+loadTestsFromName	flask/testsuite/__init__.py	/^    def loadTestsFromName(self, name, module=None):$/;"	m	class:BetterLoader
+load_module	flask/exthook.py	/^    def load_module(self, fullname):$/;"	m	class:ExtensionImporter
+loads	flask/json.py	/^def loads(s, **kwargs):$/;"	f
+loads	flask/sessions.py	/^    def loads(self, value):$/;"	m	class:TaggedJSONSerializer
+locked_cached_property	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+locked_cached_property	flask/helpers.py	/^class locked_cached_property(object):$/;"	c
+log_exception	flask/app.py	/^    def log_exception(self, exc_info):$/;"	m	class:Flask
+log_exception	flask/testsuite/subclassing.py	/^            def log_exception(self, exc_info):$/;"	m	class:FlaskSubclassingTestCase.test_suppressed_exception_logging.SuppressedFlask
+logger	flask/app.py	/^    def logger(self):$/;"	m	class:Flask
+logger_name	flask/app.py	/^    logger_name = ConfigAttribute('LOGGER_NAME')$/;"	v	class:Flask
+login	examples/flaskr/flaskr.py	/^def login():$/;"	f
+login	examples/flaskr/flaskr_tests.py	/^    def login(self, username, password):$/;"	m	class:FlaskrTestCase
+login	examples/minitwit/minitwit.py	/^def login():$/;"	f
+login	examples/minitwit/minitwit_tests.py	/^    def login(self, username, password):$/;"	m	class:MiniTwitTestCase
+login_handler	examples/persona/persona.py	/^def login_handler():$/;"	f
+logout	examples/flaskr/flaskr.py	/^def logout():$/;"	f
+logout	examples/flaskr/flaskr_tests.py	/^    def logout(self):$/;"	m	class:FlaskrTestCase
+logout	examples/minitwit/minitwit.py	/^def logout():$/;"	f
+logout	examples/minitwit/minitwit_tests.py	/^    def logout(self):$/;"	m	class:MiniTwitTestCase
+logout_handler	examples/persona/persona.py	/^def logout_handler():$/;"	f
+long_description	setup.py	/^    long_description=__doc__,$/;"	v	class:run_audit
+main	flask/testsuite/__init__.py	/^def main():$/;"	f
+main	run-tests.py	/^from flask.testsuite import main$/;"	i
+make_config	flask/app.py	/^    def make_config(self, instance_relative=False):$/;"	m	class:Flask
+make_default_options_response	flask/app.py	/^    def make_default_options_response(self):$/;"	m	class:Flask
+make_null_session	flask/app.py	/^    def make_null_session(self):$/;"	m	class:Flask
+make_null_session	flask/sessions.py	/^    def make_null_session(self, app):$/;"	m	class:SessionInterface
+make_response	flask/__init__.py	/^    stream_with_context$/;"	i
+make_response	flask/app.py	/^    def make_response(self, rv):$/;"	m	class:Flask
+make_response	flask/helpers.py	/^def make_response(*args):$/;"	f
+make_setup_state	flask/blueprints.py	/^    def make_setup_state(self, app, options, first_registration=False):$/;"	m	class:Blueprint
+make_test_environ_builder	flask/app.py	/^        from flask.testing import make_test_environ_builder$/;"	i
+make_test_environ_builder	flask/testing.py	/^def make_test_environ_builder(app, path='\/', base_url=None, *args, **kwargs):$/;"	f
+master_doc	docs/conf.py	/^master_doc = 'index'$/;"	v
+match_request	flask/ctx.py	/^    def match_request(self):$/;"	m	class:RequestContext
+max_content_length	flask/wrappers.py	/^    def max_content_length(self):$/;"	m	class:Request
+md5	examples/minitwit/minitwit.py	/^from hashlib import md5$/;"	i
+meh	flask/testsuite/reqctx.py	/^        def meh():$/;"	f	function:RequestContextTestCase.test_context_binding
+message	examples/minitwit/schema.sql	/^create table message ($/;"	t
+message.author_id	examples/minitwit/schema.sql	/^  author_id integer not null,$/;"	F
+message.message_id	examples/minitwit/schema.sql	/^  message_id integer primary key autoincrement,$/;"	F
+message.pub_date	examples/minitwit/schema.sql	/^  pub_date integer$/;"	F
+message.text	examples/minitwit/schema.sql	/^  text text not null,$/;"	F
+message_flashed	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+message_flashed	flask/helpers.py	/^from .signals import message_flashed$/;"	i
+message_flashed	flask/signals.py	/^message_flashed = _signals.signal('message-flashed')$/;"	v
+metaclass	flask/_compat.py	/^    class metaclass(meta):$/;"	c	function:with_metaclass
+methods	flask/testsuite/views.py	/^            methods = ['GET', 'POST']$/;"	v	class:ViewTestCase.test_basic_view.Index
+methods	flask/testsuite/views.py	/^            methods = ['GET', 'POST']$/;"	v	class:ViewTestCase.test_endpoint_override.Index
+methods	flask/views.py	/^    methods = None$/;"	v	class:View
+mimetypes	flask/helpers.py	/^import mimetypes$/;"	i
+minitwit	examples/minitwit/minitwit_tests.py	/^import minitwit$/;"	i
+missing_module	flask/testsuite/test_apps/flask_broken/__init__.py	/^import missing_module$/;"	i
+mod	flask/testsuite/basic.py	/^        from subdomaintestmodule import mod$/;"	i
+mod	flask/testsuite/test_apps/subdomaintestmodule/__init__.py	/^mod = Module(__name__, 'foo', subdomain='foo')$/;"	v
+modified	flask/sessions.py	/^    modified = True$/;"	v	class:SessionMixin
+modify_session	flask/testsuite/basic.py	/^        def modify_session(response):$/;"	f	function:BasicFunctionalityTestCase.test_session_special_types
+modify_session	flask/testsuite/basic.py	/^        def modify_session(response):$/;"	f	function:BasicFunctionalityTestCase.test_session_stored_last
+module	flask/wrappers.py	/^    def module(self):$/;"	m	class:Request
+moduleapp	flask/testsuite/blueprints.py	/^from moduleapp import app as moduleapp$/;"	i
+modules	flask/app.py	/^    def modules(self):$/;"	m	class:Flask
+more	flask/testsuite/basic.py	/^        def more():$/;"	f	function:BasicFunctionalityTestCase.test_request_dispatching
+more	flask/testsuite/basic.py	/^        def more():$/;"	f	function:BasicFunctionalityTestCase.test_url_mapping
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_add_template_filter
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_add_template_filter_with_name
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_add_template_filter_with_name_and_template
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_template_filter
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_template_filter_with_name
+my_reverse	flask/testsuite/blueprints.py	/^        def my_reverse(s):$/;"	f	function:BlueprintTestCase.test_template_filter_with_name_and_template
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_add_template_filter
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_add_template_filter_with_name
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_add_template_filter_with_name_and_template
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_template_filter
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_template_filter_with_name
+my_reverse	flask/testsuite/templating.py	/^        def my_reverse(s):$/;"	f	function:TemplatingTestCase.test_template_filter_with_name_and_template
+name	flask/app.py	/^    def name(self):$/;"	m	class:Flask
+name	setup.py	/^    name='Flask',$/;"	v	class:run_audit
+new	flask/sessions.py	/^    new = False$/;"	v	class:SessionMixin
+new_f	flask/testsuite/__init__.py	/^    def new_f(self, *args, **kwargs):$/;"	f	function:emits_module_deprecation_warning
+new_function	flask/testsuite/views.py	/^            def new_function(*args, **kwargs):$/;"	f	function:ViewTestCase.test_view_decorators.add_x_parachute
+newcls	flask/debughelpers.py	/^    class newcls(oldcls):$/;"	c	function:attach_enctype_error_multidict
+newext_package	flask/testsuite/ext.py	/^        from flask.ext import newext_package$/;"	i
+newext_simple	flask/testsuite/ext.py	/^        from flask.ext import newext_simple$/;"	i
+next	flask/testsuite/helpers.py	/^            next = __next__$/;"	v	class:StreamingTestCase.test_streaming_with_context_and_custom_close.Wrapper
+normal_index	flask/testsuite/basic.py	/^        def normal_index():$/;"	f	function:SubdomainTestCase.test_basic_support
+not_found	flask/testsuite/basic.py	/^        def not_found(e):$/;"	f	function:BasicFunctionalityTestCase.test_error_handling
+not_found	flask/testsuite/blueprints.py	/^        def not_found(e):$/;"	f	function:ModuleTestCase.test_error_handling
+ntpath	flask/testsuite/blueprints.py	/^            import ntpath$/;"	i
+null_session_class	flask/sessions.py	/^    null_session_class = NullSession$/;"	v	class:SessionInterface
+object_hook	flask/sessions.py	/^        def object_hook(obj):$/;"	f	function:TaggedJSONSerializer.loads
+object_hook	flask/testsuite/helpers.py	/^            def object_hook(self, obj):$/;"	m	class:JSONTestCase.test_json_customization.MyDecoder
+oldext_package	flask/testsuite/ext.py	/^        from flask.ext import oldext_package$/;"	i
+oldext_simple	flask/testsuite/ext.py	/^        from flask.ext import oldext_simple$/;"	i
+on_json_loading_failed	flask/wrappers.py	/^    def on_json_loading_failed(self, e):$/;"	m	class:Request
+on_update	flask/sessions.py	/^        def on_update(self):$/;"	f	function:SecureCookieSession.__init__
+open	flask/testing.py	/^    def open(self, *args, **kwargs):$/;"	m	class:FlaskClient
+open_instance_resource	flask/app.py	/^    def open_instance_resource(self, resource, mode='rb'):$/;"	m	class:Flask
+open_resource	flask/helpers.py	/^    def open_resource(self, resource, mode='rb'):$/;"	m	class:_PackageBoundObject
+open_session	flask/app.py	/^    def open_session(self, request):$/;"	m	class:Flask
+open_session	flask/sessions.py	/^    def open_session(self, app, request):$/;"	m	class:SecureCookieSessionInterface
+open_session	flask/sessions.py	/^    def open_session(self, app, request):$/;"	m	class:SessionInterface
+os	docs/conf.py	/^import sys, os$/;"	i
+os	examples/flaskr/flaskr_tests.py	/^import os$/;"	i
+os	examples/minitwit/minitwit_tests.py	/^import os$/;"	i
+os	flask/app.py	/^import os$/;"	i
+os	flask/config.py	/^import os$/;"	i
+os	flask/exthook.py	/^import os$/;"	i
+os	flask/helpers.py	/^import os$/;"	i
+os	flask/module.py	/^import os$/;"	i
+os	flask/testsuite/__init__.py	/^import os$/;"	i
+os	flask/testsuite/blueprints.py	/^            import os$/;"	i
+os	flask/testsuite/config.py	/^import os$/;"	i
+os	flask/testsuite/examples.py	/^import os$/;"	i
+os	flask/testsuite/helpers.py	/^import os$/;"	i
+os	flask/testsuite/regression.py	/^import os$/;"	i
+os	flask/testsuite/test_apps/config_module_app.py	/^import os$/;"	i
+os	flask/testsuite/test_apps/config_package_app/__init__.py	/^import os$/;"	i
+os	run-tests.py	/^import sys, os$/;"	i
+os	setup.py	/^        import os, sys$/;"	i
+other	flask/testsuite/testing.py	/^        def other():$/;"	f	function:TestToolsTestCase.test_test_client_context_binding
+packages	setup.py	/^    packages=['flask', 'flask.ext', 'flask.testsuite'],$/;"	v	class:run_audit
+parse_cache_control_header	flask/testsuite/blueprints.py	/^from werkzeug.http import parse_cache_control_header$/;"	i
+parse_cache_control_header	flask/testsuite/helpers.py	/^from werkzeug.http import parse_cache_control_header, parse_options_header$/;"	i
+parse_date	flask/sessions.py	/^from werkzeug.http import http_date, parse_date$/;"	i
+parse_date	flask/testsuite/basic.py	/^from werkzeug.http import parse_date$/;"	i
+parse_options_header	flask/testsuite/helpers.py	/^from werkzeug.http import parse_cache_control_header, parse_options_header$/;"	i
+parse_set_header	flask/testsuite/views.py	/^from werkzeug.http import parse_set_header$/;"	i
+partial	flask/globals.py	/^from functools import partial$/;"	i
+patch_pkgutil_get_loader	flask/testsuite/config.py	/^def patch_pkgutil_get_loader(wrapper_class=LimitedLoaderMockWrapper):$/;"	f
+permanent	flask/sessions.py	/^    permanent = property(_get_permanent, _set_permanent)$/;"	v	class:SessionMixin
+permanent_session_lifetime	flask/app.py	/^    permanent_session_lifetime = ConfigAttribute('PERMANENT_SESSION_LIFETIME',$/;"	v	class:Flask
+pickle	flask/testsuite/basic.py	/^import pickle$/;"	i
+pickle_based	flask/sessions.py	/^    pickle_based = False$/;"	v	class:SessionInterface
+pkg_resources	docs/conf.py	/^import pkg_resources$/;"	i
+pkgutil	flask/helpers.py	/^import pkgutil$/;"	i
+pkgutil	flask/testsuite/config.py	/^import pkgutil$/;"	i
+platforms	setup.py	/^    platforms='any',$/;"	v	class:run_audit
+pop	flask/ctx.py	/^    def pop(self, exc=None):$/;"	m	class:AppContext
+pop	flask/ctx.py	/^    def pop(self, exc=None):$/;"	m	class:RequestContext
+posixpath	flask/helpers.py	/^import posixpath$/;"	i
+posixpath	flask/templating.py	/^import posixpath$/;"	i
+post	flask/testsuite/helpers.py	/^            def post(self):$/;"	m	class:LoggingTestCase.test_url_with_method.MyView
+post	flask/testsuite/views.py	/^            def post(self):$/;"	m	class:ViewTestCase.test_method_based_view.Index
+post	flask/testsuite/views.py	/^            def post(self):$/;"	m	class:ViewTestCase.test_view_inheritance.Index
+post	flask/testsuite/views.py	/^            def post(self):$/;"	m	class:ViewTestCase.test_view_patching.Index
+post	flask/testsuite/views.py	/^            def post(self):$/;"	m	class:ViewTestCase.test_view_patching.Other
+preprocess_request	flask/app.py	/^    def preprocess_request(self):$/;"	m	class:Flask
+preserve_context	flask/testing.py	/^    preserve_context = False$/;"	v	class:FlaskClient
+preserve_context_on_exception	flask/app.py	/^    def preserve_context_on_exception(self):$/;"	m	class:Flask
+print_function	flask/testsuite/__init__.py	/^from __future__ import print_function$/;"	i
+print_function	setup.py	/^from __future__ import print_function$/;"	i
+process_response	flask/app.py	/^    def process_response(self, response):$/;"	m	class:Flask
+project	docs/conf.py	/^project = u'Flask'$/;"	v
+propagate_exceptions	flask/app.py	/^    def propagate_exceptions(self):$/;"	m	class:Flask
+public_timeline	examples/minitwit/minitwit.py	/^def public_timeline():$/;"	f
+pull_lang_code	flask/testsuite/basic.py	/^        def pull_lang_code(endpoint, values):$/;"	f	function:BasicFunctionalityTestCase.test_url_processors
+pull_lang_code	flask/testsuite/blueprints.py	/^        def pull_lang_code(endpoint, values):$/;"	f	function:BlueprintTestCase.test_blueprint_url_processors
+push	flask/ctx.py	/^    def push(self):$/;"	m	class:AppContext
+push	flask/ctx.py	/^    def push(self):$/;"	m	class:RequestContext
+pyflakes	setup.py	/^            import pyflakes.scripts.pyflakes as flakes$/;"	i
+pygments_style	docs/conf.py	/^    pygments_style = 'tango'$/;"	v
+pygments_style	docs/conf.py	/^pygments_style = 'flask_theme_support.FlaskyStyle'$/;"	v
+query_db	examples/minitwit/minitwit.py	/^def query_db(query, args=(), one=False):$/;"	f
+raise_routing_exception	flask/app.py	/^    def raise_routing_exception(self, request):$/;"	m	class:Flask
+re	docs/flaskdocext.py	/^import re$/;"	i
+re	flask/testsuite/basic.py	/^import re$/;"	i
+record	flask/blueprints.py	/^    def record(self, func):$/;"	m	class:Blueprint
+record	flask/testsuite/signals.py	/^        def record(sender, exception):$/;"	f	function:SignalsTestCase.test_request_exception_signal
+record	flask/testsuite/signals.py	/^        def record(sender, message, category):$/;"	f	function:SignalsTestCase.test_flash_signal
+record	flask/testsuite/signals.py	/^        def record(sender, template, context):$/;"	f	function:SignalsTestCase.test_template_rendered
+record_once	flask/blueprints.py	/^    def record_once(self, func):$/;"	m	class:Blueprint
+record_pop	flask/testsuite/signals.py	/^        def record_pop(sender, **kwargs):$/;"	f	function:SignalsTestCase.test_appcontext_signals
+record_push	flask/testsuite/signals.py	/^        def record_push(sender, **kwargs):$/;"	f	function:SignalsTestCase.test_appcontext_signals
+redirect	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+redirect	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+redirect	flask/__init__.py	/^from werkzeug.utils import redirect$/;"	i
+register	examples/minitwit/minitwit.py	/^def register():$/;"	f
+register	examples/minitwit/minitwit_tests.py	/^    def register(self, username, password, password2=None, email=None):$/;"	m	class:MiniTwitTestCase
+register	flask/blueprints.py	/^    def register(self, app, options, first_registration=False):$/;"	m	class:Blueprint
+register_and_login	examples/minitwit/minitwit_tests.py	/^    def register_and_login(self, username, password):$/;"	m	class:MiniTwitTestCase
+register_blueprint	flask/app.py	/^    def register_blueprint(self, blueprint, **options):$/;"	m	class:Flask
+register_endpoint	flask/blueprints.py	/^            def register_endpoint(state):$/;"	f	function:Blueprint.endpoint.decorator
+register_error_handler	flask/app.py	/^    def register_error_handler(self, code_or_exception, f):$/;"	m	class:Flask
+register_module	flask/app.py	/^    def register_module(self, module, **options):$/;"	m	class:Flask
+register_template	flask/blueprints.py	/^        def register_template(state):$/;"	f	function:Blueprint.add_app_template_filter
+register_template	flask/blueprints.py	/^        def register_template(state):$/;"	f	function:Blueprint.add_app_template_global
+register_template	flask/blueprints.py	/^        def register_template(state):$/;"	f	function:Blueprint.add_app_template_test
+release	docs/conf.py	/^    release = pkg_resources.get_distribution('Flask').version$/;"	v
+release	docs/conf.py	/^    release = release.split('dev')[0] + 'dev'$/;"	v
+reload_module	flask/testsuite/ext.py	/^    from imp import reload as reload_module$/;"	i
+reload_module	flask/testsuite/ext.py	/^    reload_module = reload$/;"	v
+remember	flask/testsuite/testing.py	/^        def remember(error):$/;"	f	function:TestToolsTestCase.test_test_client_calls_teardown_handlers
+render_template	examples/blueprintexample/simple_page/simple_page.py	/^from flask import Blueprint, render_template, abort$/;"	i
+render_template	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+render_template	examples/jqueryexample/jqueryexample.py	/^from flask import Flask, jsonify, render_template, request$/;"	i
+render_template	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+render_template	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+render_template	flask/__init__.py	/^from .templating import render_template, render_template_string$/;"	i
+render_template	flask/templating.py	/^def render_template(template_name_or_list, **context):$/;"	f
+render_template	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^from flask import Blueprint, render_template$/;"	i
+render_template	flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py	/^from flask import Blueprint, render_template$/;"	i
+render_template	flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py	/^from flask import Module, render_template$/;"	i
+render_template	flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py	/^from flask import Module, render_template$/;"	i
+render_template_string	flask/__init__.py	/^from .templating import render_template, render_template_string$/;"	i
+render_template_string	flask/templating.py	/^def render_template_string(source, **context):$/;"	f
+request	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+request	examples/jqueryexample/jqueryexample.py	/^from flask import Flask, jsonify, render_template, request$/;"	i
+request	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+request	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+request	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+request	flask/app.py	/^from .globals import _request_ctx_stack, request, session, g$/;"	i
+request	flask/globals.py	/^request = LocalProxy(partial(_lookup_req_object, 'request'))$/;"	v
+request	flask/helpers.py	/^     current_app, request$/;"	i
+request	flask/json.py	/^from .globals import current_app, request$/;"	i
+request	flask/views.py	/^from .globals import request$/;"	i
+request_class	flask/app.py	/^    request_class = Request$/;"	v	class:Flask
+request_context	flask/app.py	/^    def request_context(self, environ):$/;"	m	class:Flask
+request_finished	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+request_finished	flask/app.py	/^     request_tearing_down, appcontext_tearing_down$/;"	i
+request_finished	flask/signals.py	/^request_finished = _signals.signal('request-finished')$/;"	v
+request_globals_class	flask/app.py	/^    request_globals_class = property(_get_request_globals_class,$/;"	v	class:Flask
+request_started	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+request_started	flask/app.py	/^     request_tearing_down, appcontext_tearing_down$/;"	i
+request_started	flask/signals.py	/^request_started = _signals.signal('request-started')$/;"	v
+request_tearing_down	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+request_tearing_down	flask/app.py	/^     request_tearing_down, appcontext_tearing_down$/;"	i
+request_tearing_down	flask/signals.py	/^request_tearing_down = _signals.signal('request-tearing-down')$/;"	v
+requests	examples/persona/persona.py	/^import requests$/;"	i
+reraise	flask/_compat.py	/^    def reraise(tp, value, tb=None):$/;"	f
+reraise	flask/app.py	/^from ._compat import reraise, string_types, text_type, integer_types$/;"	i
+reraise	flask/exthook.py	/^from ._compat import reraise$/;"	i
+reraise	flask/testsuite/__init__.py	/^from flask._compat import reraise, StringIO$/;"	i
+response_class	flask/app.py	/^    response_class = Response$/;"	v	class:Flask
+return_dict	flask/testsuite/helpers.py	/^        def return_dict():$/;"	f	function:JSONTestCase.test_jsonify
+return_json	flask/testsuite/helpers.py	/^        def return_json():$/;"	f	function:JSONTestCase.test_json_bad_requests
+return_kwargs	flask/testsuite/helpers.py	/^        def return_kwargs():$/;"	f	function:JSONTestCase.test_jsonify
+return_something	flask/testsuite/basic.py	/^        def return_something(error):$/;"	f	function:BasicFunctionalityTestCase.test_before_request_and_routing_errors
+root	flask/testsuite/basic.py	/^        def root():$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler
+root	flask/testsuite/basic.py	/^        def root():$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler_debug_mode
+route	flask/app.py	/^    def route(self, rule, **options):$/;"	m	class:Flask
+route	flask/blueprints.py	/^    def route(self, rule, **options):$/;"	m	class:Blueprint
+routing_exception	flask/wrappers.py	/^    routing_exception = None$/;"	v	class:Request
+run	flask/app.py	/^    def run(self, host=None, port=None, debug=None, **options):$/;"	m	class:Flask
+run	setup.py	/^    def run(self):$/;"	m	class:run_audit
+run_audit	setup.py	/^class run_audit(Command):$/;"	c
+run_simple	flask/app.py	/^        from werkzeug.serving import run_simple$/;"	i
+rv	flask/testsuite/helpers.py	/^            rv = app.send_static_file('index.html')$/;"	v	class:SendfileTestCase.test_static_file.StaticFileApp
+rv	flask/testsuite/helpers.py	/^            rv = flask.send_file('static\/index.html')$/;"	v	class:SendfileTestCase.test_static_file.StaticFileApp
+safe_join	flask/__init__.py	/^    stream_with_context$/;"	i
+safe_join	flask/helpers.py	/^def safe_join(directory, filename):$/;"	f
+safe_join	flask/testsuite/regression.py	/^        from flask.helpers import safe_join$/;"	i
+salt	flask/sessions.py	/^    salt = 'cookie-session'$/;"	v	class:SecureCookieSessionInterface
+save_session	flask/app.py	/^    def save_session(self, session, response):$/;"	m	class:Flask
+save_session	flask/sessions.py	/^    def save_session(self, app, session, response):$/;"	m	class:SecureCookieSessionInterface
+save_session	flask/sessions.py	/^    def save_session(self, app, session, response):$/;"	m	class:SessionInterface
+scripts	setup.py	/^            import pyflakes.scripts.pyflakes as flakes$/;"	i
+secret_key	flask/app.py	/^    secret_key = ConfigAttribute('SECRET_KEY')$/;"	v	class:Flask
+select_jinja_autoescape	flask/app.py	/^    def select_jinja_autoescape(self, filename):$/;"	m	class:Flask
+send	flask/signals.py	/^        send = lambda *a, **kw: None$/;"	v	class:_FakeSignal
+send_file	flask/__init__.py	/^    stream_with_context$/;"	i
+send_file	flask/helpers.py	/^def send_file(filename_or_fp, mimetype=None, as_attachment=False,$/;"	f
+send_from_directory	flask/__init__.py	/^    stream_with_context$/;"	i
+send_from_directory	flask/helpers.py	/^def send_from_directory(directory, filename, **options):$/;"	f
+send_static_file	flask/helpers.py	/^    def send_static_file(self, filename):$/;"	m	class:_PackageBoundObject
+serializer	flask/sessions.py	/^    serializer = session_json_serializer$/;"	v	class:SecureCookieSessionInterface
+session	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+session	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+session	examples/persona/persona.py	/^from flask import Flask, render_template, session, request, json, abort, g$/;"	i
+session	flask/__init__.py	/^     _app_ctx_stack$/;"	i
+session	flask/app.py	/^from .globals import _request_ctx_stack, request, session, g$/;"	i
+session	flask/globals.py	/^session = LocalProxy(partial(_lookup_req_object, 'session'))$/;"	v
+session	flask/helpers.py	/^     current_app, request$/;"	i
+session_class	flask/sessions.py	/^    session_class = SecureCookieSession$/;"	v	class:SecureCookieSessionInterface
+session_cookie_name	flask/app.py	/^    session_cookie_name = ConfigAttribute('SESSION_COOKIE_NAME')$/;"	v	class:Flask
+session_interface	flask/app.py	/^    session_interface = SecureCookieSessionInterface()$/;"	v	class:Flask
+session_json_serializer	flask/sessions.py	/^session_json_serializer = TaggedJSONSerializer()$/;"	v
+session_transaction	flask/testing.py	/^    def session_transaction(self, *args, **kwargs):$/;"	m	class:FlaskClient
+set	flask/testsuite/basic.py	/^        def set():$/;"	f	function:BasicFunctionalityTestCase.test_session
+setUp	examples/blueprintexample/blueprintexample_test.py	/^    def setUp(self):$/;"	m	class:BlueprintExampleTestCase
+setUp	examples/flaskr/flaskr_tests.py	/^    def setUp(self):$/;"	m	class:FlaskrTestCase
+setUp	examples/minitwit/minitwit_tests.py	/^    def setUp(self):$/;"	m	class:MiniTwitTestCase
+setUp	flask/testsuite/__init__.py	/^    def setUp(self):$/;"	m	class:FlaskTestCase
+setUp	flask/testsuite/testing.py	/^    def setUp(self):$/;"	m	class:SubdomainTestCase
+setup	docs/flaskdocext.py	/^def setup(app):$/;"	f
+setup	flask/ext/__init__.py	/^def setup():$/;"	f
+setup	flask/testsuite/__init__.py	/^    def setup(self):$/;"	m	class:FlaskTestCase
+setup	flask/testsuite/ext.py	/^    def setup(self):$/;"	m	class:ExtImportHookTestCase
+setup	setup.py	/^from setuptools import Command, setup$/;"	i
+setup_path	flask/testsuite/__init__.py	/^def setup_path():$/;"	f
+setup_path	flask/testsuite/examples.py	/^def setup_path():$/;"	f
+setupmethod	flask/app.py	/^def setupmethod(f):$/;"	f
+should_ignore_error	flask/app.py	/^    def should_ignore_error(self, error):$/;"	m	class:Flask
+show	examples/blueprintexample/simple_page/simple_page.py	/^def show(page):$/;"	f
+show_entries	examples/flaskr/flaskr.py	/^def show_entries():$/;"	f
+showwarning	flask/testsuite/__init__.py	/^    def showwarning(message, category, filename, lineno, file=None, line=None):$/;"	f	function:catch_warnings
+sideend_no	flask/testsuite/blueprints.py	/^        def sideend_no():$/;"	f	function:BlueprintTestCase.test_blueprint_specific_error_handling
+signal	flask/signals.py	/^        def signal(self, name, doc=None):$/;"	m	class:Namespace
+signals_available	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+signals_available	flask/signals.py	/^    signals_available = True$/;"	v
+signals_available	flask/signals.py	/^signals_available = False$/;"	v
+simple_page	examples/blueprintexample/blueprintexample.py	/^from simple_page.simple_page import simple_page$/;"	i
+simple_page	examples/blueprintexample/simple_page/simple_page.py	/^simple_page = Blueprint('simple_page', __name__,$/;"	v
+site_app	flask/testsuite/config.py	/^                import site_app$/;"	i
+site_app	flask/testsuite/config.py	/^            import site_app$/;"	i
+site_egg	flask/testsuite/config.py	/^            import site_egg # in SiteEgg.egg$/;"	i
+site_package	flask/testsuite/config.py	/^                import site_package$/;"	i
+site_package	flask/testsuite/config.py	/^            import site_package$/;"	i
+skip_member	docs/flaskdocext.py	/^def skip_member(app, what, name, obj, skip, options):$/;"	f
+something	flask/testsuite/blueprints.py	/^        def something(page):$/;"	f	function:BlueprintTestCase.test_empty_url_defaults
+something_else	flask/testsuite/basic.py	/^        def something_else():$/;"	f	function:BasicFunctionalityTestCase.test_url_processors
+source_suffix	docs/conf.py	/^source_suffix = '.rst'$/;"	v
+sqlite3	examples/flaskr/flaskr.py	/^from sqlite3 import dbapi2 as sqlite3$/;"	i
+sqlite3	examples/minitwit/minitwit.py	/^from sqlite3 import dbapi2 as sqlite3$/;"	i
+static_folder	flask/helpers.py	/^    static_folder = property(_get_static_folder, _set_static_folder)$/;"	v	class:_PackageBoundObject
+static_folder	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^                  static_folder='static')$/;"	v
+static_url_path	flask/helpers.py	/^    static_url_path = property(_get_static_url_path, _set_static_url_path)$/;"	v	class:_PackageBoundObject
+stream_with_context	flask/__init__.py	/^    stream_with_context$/;"	i
+stream_with_context	flask/helpers.py	/^def stream_with_context(generator_or_function):$/;"	f
+string_types	flask/_compat.py	/^    string_types = (str, unicode)$/;"	v
+string_types	flask/_compat.py	/^    string_types = (str,)$/;"	v
+string_types	flask/app.py	/^from ._compat import reraise, string_types, text_type, integer_types$/;"	i
+string_types	flask/config.py	/^from ._compat import string_types$/;"	i
+string_types	flask/helpers.py	/^from ._compat import string_types, text_type$/;"	i
+styles	docs/_themes/flask_theme_support.py	/^    styles = {$/;"	v	class:FlaskyStyle
+styles	docs/flaskext.py	/^    styles = {$/;"	v	class:FlaskyStyle
+sub	flask/testsuite/reqctx.py	/^        def sub():$/;"	f	function:RequestContextTestCase.test_proper_test_request_context
+subdomain	flask/testsuite/basic.py	/^        def subdomain():$/;"	f	function:BasicFunctionalityTestCase.test_test_app_proper_environ
+submodule	flask/testsuite/ext.py	/^        from flask.ext.newext_package import submodule$/;"	i
+submodule	flask/testsuite/ext.py	/^        from flask.ext.oldext_package import submodule$/;"	i
+success_func	flask/testsuite/basic.py	/^        def success_func():$/;"	f	function:BasicFunctionalityTestCase.test_preserve_remembers_exception
+suite	flask/testsuite/__init__.py	/^def suite():$/;"	f
+suite	flask/testsuite/appctx.py	/^def suite():$/;"	f
+suite	flask/testsuite/basic.py	/^def suite():$/;"	f
+suite	flask/testsuite/blueprints.py	/^def suite():$/;"	f
+suite	flask/testsuite/config.py	/^def suite():$/;"	f
+suite	flask/testsuite/deprecations.py	/^def suite():$/;"	f
+suite	flask/testsuite/examples.py	/^def suite():$/;"	f
+suite	flask/testsuite/ext.py	/^def suite():$/;"	f
+suite	flask/testsuite/helpers.py	/^def suite():$/;"	f
+suite	flask/testsuite/regression.py	/^def suite():$/;"	f
+suite	flask/testsuite/reqctx.py	/^def suite():$/;"	f
+suite	flask/testsuite/signals.py	/^def suite():$/;"	f
+suite	flask/testsuite/subclassing.py	/^def suite():$/;"	f
+suite	flask/testsuite/templating.py	/^def suite():$/;"	f
+suite	flask/testsuite/testing.py	/^def suite():$/;"	f
+suite	flask/testsuite/views.py	/^def suite():$/;"	f
+super_reverse	flask/testsuite/blueprints.py	/^        def super_reverse(s):$/;"	f	function:BlueprintTestCase.test_add_template_filter_with_template
+super_reverse	flask/testsuite/blueprints.py	/^        def super_reverse(s):$/;"	f	function:BlueprintTestCase.test_template_filter_after_route_with_template
+super_reverse	flask/testsuite/blueprints.py	/^        def super_reverse(s):$/;"	f	function:BlueprintTestCase.test_template_filter_with_template
+super_reverse	flask/testsuite/templating.py	/^        def super_reverse(s):$/;"	f	function:TemplatingTestCase.test_add_template_filter_with_template
+super_reverse	flask/testsuite/templating.py	/^        def super_reverse(s):$/;"	f	function:TemplatingTestCase.test_template_filter_with_template
+sys	docs/conf.py	/^import sys, os$/;"	i
+sys	flask/_compat.py	/^import sys$/;"	i
+sys	flask/app.py	/^import sys$/;"	i
+sys	flask/ctx.py	/^import sys$/;"	i
+sys	flask/exthook.py	/^import sys$/;"	i
+sys	flask/helpers.py	/^import sys$/;"	i
+sys	flask/testsuite/__init__.py	/^import sys$/;"	i
+sys	flask/testsuite/config.py	/^import sys$/;"	i
+sys	flask/testsuite/ext.py	/^import sys$/;"	i
+sys	flask/testsuite/regression.py	/^import sys$/;"	i
+sys	run-tests.py	/^import sys, os$/;"	i
+sys	setup.py	/^        import os, sys$/;"	i
+tearDown	examples/flaskr/flaskr_tests.py	/^    def tearDown(self):$/;"	m	class:FlaskrTestCase
+tearDown	examples/minitwit/minitwit_tests.py	/^    def tearDown(self):$/;"	m	class:MiniTwitTestCase
+tearDown	flask/testsuite/__init__.py	/^    def tearDown(self):$/;"	m	class:FlaskTestCase
+tearDown	flask/testsuite/testing.py	/^    def tearDown(self):$/;"	m	class:SubdomainTestCase
+teardown	flask/testsuite/__init__.py	/^    def teardown(self):$/;"	m	class:FlaskTestCase
+teardown	flask/testsuite/ext.py	/^    def teardown(self):$/;"	m	class:ExtImportHookTestCase
+teardown_app	flask/testsuite/appctx.py	/^        def teardown_app(error=None):$/;"	f	function:AppContextTestCase.test_context_refcounts
+teardown_app_request	flask/blueprints.py	/^    def teardown_app_request(self, f):$/;"	m	class:Blueprint
+teardown_appcontext	flask/app.py	/^    def teardown_appcontext(self, f):$/;"	m	class:Flask
+teardown_handler	flask/testsuite/basic.py	/^        def teardown_handler(exc):$/;"	f	function:BasicFunctionalityTestCase.test_preserve_remembers_exception
+teardown_req	flask/testsuite/appctx.py	/^        def teardown_req(error=None):$/;"	f	function:AppContextTestCase.test_context_refcounts
+teardown_request	flask/app.py	/^    def teardown_request(self, f):$/;"	m	class:Flask
+teardown_request	flask/blueprints.py	/^    def teardown_request(self, f):$/;"	m	class:Blueprint
+teardown_request	flask/testsuite/basic.py	/^        def teardown_request(exc):$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler
+teardown_request	flask/testsuite/basic.py	/^        def teardown_request(exc):$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler_debug_mode
+teardown_request1	flask/testsuite/basic.py	/^        def teardown_request1(exc):$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler_error
+teardown_request2	flask/testsuite/basic.py	/^        def teardown_request2(exc):$/;"	f	function:BasicFunctionalityTestCase.test_teardown_request_handler_error
+tempfile	examples/flaskr/flaskr_tests.py	/^import tempfile$/;"	i
+tempfile	examples/minitwit/minitwit_tests.py	/^import tempfile$/;"	i
+template_filter	flask/app.py	/^    def template_filter(self, name=None):$/;"	m	class:Flask
+template_folder	examples/blueprintexample/simple_page/simple_page.py	/^                        template_folder='templates')$/;"	v
+template_folder	flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py	/^                  template_folder='templates',$/;"	v
+template_global	flask/app.py	/^    def template_global(self, name=None):$/;"	m	class:Flask
+template_rendered	flask/__init__.py	/^     appcontext_popped, message_flashed$/;"	i
+template_rendered	flask/signals.py	/^template_rendered = _signals.signal('template-rendered')$/;"	v
+template_rendered	flask/templating.py	/^from .signals import template_rendered$/;"	i
+template_test	flask/app.py	/^    def template_test(self, name=None):$/;"	m	class:Flask
+templates_path	docs/conf.py	/^templates_path = ['_templates']$/;"	v
+test	flask/testsuite/basic.py	/^        def test():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+test	flask/testsuite/basic.py	/^        def test():$/;"	f	function:BasicFunctionalityTestCase.test_none_response
+test	flask/testsuite/basic.py	/^        def test():$/;"	f	function:BasicFunctionalityTestCase.test_session_expiration
+test	flask/testsuite/basic.py	/^        def test():$/;"	f	function:SubdomainTestCase.test_module_subdomain_support
+test	flask/testsuite/regression.py	/^        def test():$/;"	f	function:ExceptionTestCase.test_aborting
+test_aborting	flask/testsuite/regression.py	/^    def test_aborting(self):$/;"	m	class:ExceptionTestCase
+test_add_template_filter	flask/testsuite/blueprints.py	/^    def test_add_template_filter(self):$/;"	m	class:BlueprintTestCase
+test_add_template_filter	flask/testsuite/templating.py	/^    def test_add_template_filter(self):$/;"	m	class:TemplatingTestCase
+test_add_template_filter_with_name	flask/testsuite/blueprints.py	/^    def test_add_template_filter_with_name(self):$/;"	m	class:BlueprintTestCase
+test_add_template_filter_with_name	flask/testsuite/templating.py	/^    def test_add_template_filter_with_name(self):$/;"	m	class:TemplatingTestCase
+test_add_template_filter_with_name_and_template	flask/testsuite/blueprints.py	/^    def test_add_template_filter_with_name_and_template(self):$/;"	m	class:BlueprintTestCase
+test_add_template_filter_with_name_and_template	flask/testsuite/templating.py	/^    def test_add_template_filter_with_name_and_template(self):$/;"	m	class:TemplatingTestCase
+test_add_template_filter_with_template	flask/testsuite/blueprints.py	/^    def test_add_template_filter_with_template(self):$/;"	m	class:BlueprintTestCase
+test_add_template_filter_with_template	flask/testsuite/templating.py	/^    def test_add_template_filter_with_template(self):$/;"	m	class:TemplatingTestCase
+test_add_template_global	flask/testsuite/templating.py	/^    def test_add_template_global(self):$/;"	m	class:TemplatingTestCase
+test_add_template_test	flask/testsuite/blueprints.py	/^    def test_add_template_test(self):$/;"	m	class:BlueprintTestCase
+test_add_template_test	flask/testsuite/templating.py	/^    def test_add_template_test(self):$/;"	m	class:TemplatingTestCase
+test_add_template_test_with_name	flask/testsuite/blueprints.py	/^    def test_add_template_test_with_name(self):$/;"	m	class:BlueprintTestCase
+test_add_template_test_with_name	flask/testsuite/templating.py	/^    def test_add_template_test_with_name(self):$/;"	m	class:TemplatingTestCase
+test_add_template_test_with_name_and_template	flask/testsuite/blueprints.py	/^    def test_add_template_test_with_name_and_template(self):$/;"	m	class:BlueprintTestCase
+test_add_template_test_with_name_and_template	flask/testsuite/templating.py	/^    def test_add_template_test_with_name_and_template(self):$/;"	m	class:TemplatingTestCase
+test_add_template_test_with_template	flask/testsuite/blueprints.py	/^    def test_add_template_test_with_template(self):$/;"	m	class:BlueprintTestCase
+test_add_template_test_with_template	flask/testsuite/templating.py	/^    def test_add_template_test_with_template(self):$/;"	m	class:TemplatingTestCase
+test_after_request_processing	flask/testsuite/basic.py	/^    def test_after_request_processing(self):$/;"	m	class:BasicFunctionalityTestCase
+test_app_context_provides_current_app	flask/testsuite/appctx.py	/^    def test_app_context_provides_current_app(self):$/;"	m	class:AppContextTestCase
+test_app_tearing_down	flask/testsuite/appctx.py	/^    def test_app_tearing_down(self):$/;"	m	class:AppContextTestCase
+test_appcontext_signals	flask/testsuite/signals.py	/^    def test_appcontext_signals(self):$/;"	m	class:SignalsTestCase
+test_attachment	flask/testsuite/helpers.py	/^    def test_attachment(self):$/;"	m	class:SendfileTestCase
+test_basic_module	flask/testsuite/blueprints.py	/^    def test_basic_module(self):$/;"	m	class:ModuleTestCase
+test_basic_support	flask/testsuite/basic.py	/^    def test_basic_support(self):$/;"	m	class:SubdomainTestCase
+test_basic_url_generation	flask/testsuite/appctx.py	/^    def test_basic_url_generation(self):$/;"	m	class:AppContextTestCase
+test_basic_view	flask/testsuite/views.py	/^    def test_basic_view(self):$/;"	m	class:ViewTestCase
+test_before_after_request_order	flask/testsuite/basic.py	/^    def test_before_after_request_order(self):$/;"	m	class:BasicFunctionalityTestCase
+test_before_first_request_functions	flask/testsuite/basic.py	/^    def test_before_first_request_functions(self):$/;"	m	class:BasicFunctionalityTestCase
+test_before_request_and_routing_errors	flask/testsuite/basic.py	/^    def test_before_request_and_routing_errors(self):$/;"	m	class:BasicFunctionalityTestCase
+test_blueprint_specific_error_handling	flask/testsuite/blueprints.py	/^    def test_blueprint_specific_error_handling(self):$/;"	m	class:BlueprintTestCase
+test_blueprint_url_definitions	flask/testsuite/blueprints.py	/^    def test_blueprint_url_definitions(self):$/;"	m	class:BlueprintTestCase
+test_blueprint_url_processors	flask/testsuite/blueprints.py	/^    def test_blueprint_url_processors(self):$/;"	m	class:BlueprintTestCase
+test_build_error_handler	flask/testsuite/basic.py	/^    def test_build_error_handler(self):$/;"	m	class:BasicFunctionalityTestCase
+test_client	flask/app.py	/^    def test_client(self, use_cookies=True):$/;"	m	class:Flask
+test_client_class	flask/app.py	/^    test_client_class = None$/;"	v	class:Flask
+test_config_from_class	flask/testsuite/config.py	/^    def test_config_from_class(self):$/;"	m	class:ConfigTestCase
+test_config_from_envvar	flask/testsuite/config.py	/^    def test_config_from_envvar(self):$/;"	m	class:ConfigTestCase
+test_config_from_envvar_missing	flask/testsuite/config.py	/^    def test_config_from_envvar_missing(self):$/;"	m	class:ConfigTestCase
+test_config_from_file	flask/testsuite/config.py	/^    def test_config_from_file(self):$/;"	m	class:ConfigTestCase
+test_config_from_object	flask/testsuite/config.py	/^    def test_config_from_object(self):$/;"	m	class:ConfigTestCase
+test_config_missing	flask/testsuite/config.py	/^    def test_config_missing(self):$/;"	m	class:ConfigTestCase
+test_context_binding	flask/testsuite/reqctx.py	/^    def test_context_binding(self):$/;"	m	class:RequestContextTestCase
+test_context_processing	flask/testsuite/templating.py	/^    def test_context_processing(self):$/;"	m	class:TemplatingTestCase
+test_context_processors	flask/testsuite/blueprints.py	/^    def test_context_processors(self):$/;"	m	class:ModuleTestCase
+test_context_refcounts	flask/testsuite/appctx.py	/^    def test_context_refcounts(self):$/;"	m	class:AppContextTestCase
+test_context_test	flask/testsuite/reqctx.py	/^    def test_context_test(self):$/;"	m	class:RequestContextTestCase
+test_custom_app_ctx_globals_class	flask/testsuite/appctx.py	/^    def test_custom_app_ctx_globals_class(self):$/;"	m	class:AppContextTestCase
+test_custom_converters	flask/testsuite/basic.py	/^    def test_custom_converters(self):$/;"	m	class:BasicFunctionalityTestCase
+test_custom_template_loader	flask/testsuite/templating.py	/^    def test_custom_template_loader(self):$/;"	m	class:TemplatingTestCase
+test_debug_log	flask/testsuite/helpers.py	/^    def test_debug_log(self):$/;"	m	class:LoggingTestCase
+test_debug_log_override	flask/testsuite/helpers.py	/^    def test_debug_log_override(self):$/;"	m	class:LoggingTestCase
+test_debug_mode_complains_after_first_request	flask/testsuite/basic.py	/^    def test_debug_mode_complains_after_first_request(self):$/;"	m	class:BasicFunctionalityTestCase
+test_default_endpoint_name	flask/testsuite/blueprints.py	/^    def test_default_endpoint_name(self):$/;"	m	class:ModuleTestCase
+test_default_static_cache_timeout	flask/testsuite/blueprints.py	/^    def test_default_static_cache_timeout(self):$/;"	m	class:BlueprintTestCase
+test_dotted_names	flask/testsuite/blueprints.py	/^    def test_dotted_names(self):$/;"	m	class:BlueprintTestCase
+test_dotted_names_from_app	flask/testsuite/blueprints.py	/^    def test_dotted_names_from_app(self):$/;"	m	class:BlueprintTestCase
+test_egg_installed_paths	flask/testsuite/config.py	/^    def test_egg_installed_paths(self):$/;"	m	class:InstanceTestCase
+test_empty_db	examples/flaskr/flaskr_tests.py	/^    def test_empty_db(self):$/;"	m	class:FlaskrTestCase
+test_empty_url_defaults	flask/testsuite/blueprints.py	/^    def test_empty_url_defaults(self):$/;"	m	class:BlueprintTestCase
+test_enctype_debug_helper	flask/testsuite/basic.py	/^    def test_enctype_debug_helper(self):$/;"	m	class:BasicFunctionalityTestCase
+test_endpoint_decorator	flask/testsuite/basic.py	/^    def test_endpoint_decorator(self):$/;"	m	class:BasicFunctionalityTestCase
+test_endpoint_decorator	flask/testsuite/blueprints.py	/^    def test_endpoint_decorator(self):$/;"	m	class:ModuleTestCase
+test_endpoint_override	flask/testsuite/views.py	/^    def test_endpoint_override(self):$/;"	m	class:ViewTestCase
+test_environ_defaults	flask/testsuite/testing.py	/^    def test_environ_defaults(self):$/;"	m	class:TestToolsTestCase
+test_environ_defaults_from_config	flask/testsuite/testing.py	/^    def test_environ_defaults_from_config(self):$/;"	m	class:TestToolsTestCase
+test_error_handling	flask/testsuite/basic.py	/^    def test_error_handling(self):$/;"	m	class:BasicFunctionalityTestCase
+test_error_handling	flask/testsuite/blueprints.py	/^    def test_error_handling(self):$/;"	m	class:ModuleTestCase
+test_escaping	flask/testsuite/templating.py	/^    def test_escaping(self):$/;"	m	class:TemplatingTestCase
+test_exception_logging	flask/testsuite/helpers.py	/^    def test_exception_logging(self):$/;"	m	class:LoggingTestCase
+test_exception_propagation	flask/testsuite/basic.py	/^    def test_exception_propagation(self):$/;"	m	class:BasicFunctionalityTestCase
+test_explicit_head	flask/testsuite/views.py	/^    def test_explicit_head(self):$/;"	m	class:ViewTestCase
+test_explicit_instance_paths	flask/testsuite/config.py	/^    def test_explicit_instance_paths(self):$/;"	m	class:InstanceTestCase
+test_extended_flashing	flask/testsuite/basic.py	/^    def test_extended_flashing(self):$/;"	m	class:BasicFunctionalityTestCase
+test_filter	flask/testsuite/basic.py	/^        def test_filter():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+test_filters	flask/testsuite/basic.py	/^        def test_filters():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+test_filters2	flask/testsuite/basic.py	/^        def test_filters2():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+test_flash_signal	flask/testsuite/signals.py	/^    def test_flash_signal(self):$/;"	m	class:SignalsTestCase
+test_flashes	flask/testsuite/basic.py	/^    def test_flashes(self):$/;"	m	class:BasicFunctionalityTestCase
+test_flaskext_broken_package_no_module_caching	flask/testsuite/ext.py	/^    def test_flaskext_broken_package_no_module_caching(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_package_import_module	flask/testsuite/ext.py	/^    def test_flaskext_new_package_import_module(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_package_import_normal	flask/testsuite/ext.py	/^    def test_flaskext_new_package_import_normal(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_package_import_submodule	flask/testsuite/ext.py	/^    def test_flaskext_new_package_import_submodule(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_package_import_submodule_function	flask/testsuite/ext.py	/^    def test_flaskext_new_package_import_submodule_function(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_simple_import_module	flask/testsuite/ext.py	/^    def test_flaskext_new_simple_import_module(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_new_simple_import_normal	flask/testsuite/ext.py	/^    def test_flaskext_new_simple_import_normal(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_package_import_module	flask/testsuite/ext.py	/^    def test_flaskext_old_package_import_module(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_package_import_normal	flask/testsuite/ext.py	/^    def test_flaskext_old_package_import_normal(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_package_import_submodule	flask/testsuite/ext.py	/^    def test_flaskext_old_package_import_submodule(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_package_import_submodule_function	flask/testsuite/ext.py	/^    def test_flaskext_old_package_import_submodule_function(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_simple_import_module	flask/testsuite/ext.py	/^    def test_flaskext_old_simple_import_module(self):$/;"	m	class:ExtImportHookTestCase
+test_flaskext_old_simple_import_normal	flask/testsuite/ext.py	/^    def test_flaskext_old_simple_import_normal(self):$/;"	m	class:ExtImportHookTestCase
+test_function	flask/testsuite/ext.py	/^        from flask.ext.newext_package.submodule import test_function$/;"	i
+test_function	flask/testsuite/ext.py	/^        from flask.ext.oldext_package.submodule import test_function$/;"	i
+test_function	flask/testsuite/test_apps/flask_newext_package/submodule.py	/^def test_function():$/;"	f
+test_function	flask/testsuite/test_apps/flaskext/oldext_package/submodule.py	/^def test_function():$/;"	f
+test_g_iteration_protocol	flask/testsuite/basic.py	/^    def test_g_iteration_protocol(self):$/;"	m	class:BasicFunctionalityTestCase
+test_get_method_on_g	flask/testsuite/basic.py	/^    def test_get_method_on_g(self):$/;"	m	class:BasicFunctionalityTestCase
+test_greenlet_context_copying	flask/testsuite/reqctx.py	/^    def test_greenlet_context_copying(self):$/;"	m	class:RequestContextTestCase
+test_greenlet_context_copying_api	flask/testsuite/reqctx.py	/^    def test_greenlet_context_copying_api(self):$/;"	m	class:RequestContextTestCase
+test_implicit_head	flask/testsuite/views.py	/^    def test_implicit_head(self):$/;"	m	class:ViewTestCase
+test_index	flask/testsuite/basic.py	/^        def test_index():$/;"	f	function:SubdomainTestCase.test_basic_support
+test_inject_blueprint_url_defaults	flask/testsuite/basic.py	/^    def test_inject_blueprint_url_defaults(self):$/;"	m	class:BasicFunctionalityTestCase
+test_installed_module_paths	flask/testsuite/config.py	/^    def test_installed_module_paths(self):$/;"	m	class:InstanceTestCase
+test_installed_module_paths_with_limited_loader	flask/testsuite/config.py	/^    def test_installed_module_paths_with_limited_loader(self):$/;"	m	class:InstanceTestCase
+test_installed_package_paths	flask/testsuite/config.py	/^    def test_installed_package_paths(self):$/;"	m	class:InstanceTestCase
+test_installed_package_paths_with_limited_loader	flask/testsuite/config.py	/^    def test_installed_package_paths_with_limited_loader(self):$/;"	m	class:InstanceTestCase
+test_iterable_loader	flask/testsuite/templating.py	/^    def test_iterable_loader(self):$/;"	m	class:TemplatingTestCase
+test_json_as_unicode	flask/testsuite/helpers.py	/^    def test_json_as_unicode(self):$/;"	m	class:JSONTestCase
+test_json_attr	flask/testsuite/helpers.py	/^    def test_json_attr(self):$/;"	m	class:JSONTestCase
+test_json_bad_requests	flask/testsuite/helpers.py	/^    def test_json_bad_requests(self):$/;"	m	class:JSONTestCase
+test_json_body_encoding	flask/testsuite/helpers.py	/^    def test_json_body_encoding(self):$/;"	m	class:JSONTestCase
+test_json_customization	flask/testsuite/helpers.py	/^    def test_json_customization(self):$/;"	m	class:JSONTestCase
+test_json_key_sorting	flask/testsuite/helpers.py	/^    def test_json_key_sorting(self):$/;"	m	class:JSONTestCase
+test_jsonify	flask/testsuite/helpers.py	/^    def test_jsonify(self):$/;"	m	class:JSONTestCase
+test_late_binding	flask/testsuite/blueprints.py	/^    def test_late_binding(self):$/;"	m	class:ModuleTestCase
+test_logger_cache	flask/testsuite/helpers.py	/^    def test_logger_cache(self):$/;"	m	class:LoggingTestCase
+test_login_logout	examples/flaskr/flaskr_tests.py	/^    def test_login_logout(self):$/;"	m	class:FlaskrTestCase
+test_login_logout	examples/minitwit/minitwit_tests.py	/^    def test_login_logout(self):$/;"	m	class:MiniTwitTestCase
+test_macros	flask/testsuite/templating.py	/^    def test_macros(self):$/;"	m	class:TemplatingTestCase
+test_main_module_paths	flask/testsuite/config.py	/^    def test_main_module_paths(self):$/;"	m	class:InstanceTestCase
+test_make_response	flask/testsuite/basic.py	/^    def test_make_response(self):$/;"	m	class:BasicFunctionalityTestCase
+test_make_response_with_response_instance	flask/testsuite/basic.py	/^    def test_make_response_with_response_instance(self):$/;"	m	class:BasicFunctionalityTestCase
+test_manual_context_binding	flask/testsuite/reqctx.py	/^    def test_manual_context_binding(self):$/;"	m	class:RequestContextTestCase
+test_max_content_length	flask/testsuite/basic.py	/^    def test_max_content_length(self):$/;"	m	class:BasicFunctionalityTestCase
+test_memory_consumption	flask/testsuite/regression.py	/^    def test_memory_consumption(self):$/;"	m	class:MemoryTestCase
+test_message_recording	examples/minitwit/minitwit_tests.py	/^    def test_message_recording(self):$/;"	m	class:MiniTwitTestCase
+test_messages	examples/flaskr/flaskr_tests.py	/^    def test_messages(self):$/;"	m	class:FlaskrTestCase
+test_method_based_view	flask/testsuite/views.py	/^    def test_method_based_view(self):$/;"	m	class:ViewTestCase
+test_missing_session	flask/testsuite/basic.py	/^    def test_missing_session(self):$/;"	m	class:BasicFunctionalityTestCase
+test_modified_url_encoding	flask/testsuite/helpers.py	/^    def test_modified_url_encoding(self):$/;"	m	class:JSONTestCase
+test_module_static_path_subdomain	flask/testsuite/basic.py	/^    def test_module_static_path_subdomain(self):$/;"	m	class:SubdomainTestCase
+test_module_subdomain_support	flask/testsuite/basic.py	/^    def test_module_subdomain_support(self):$/;"	m	class:SubdomainTestCase
+test_multi_route_class_views	flask/testsuite/basic.py	/^    def test_multi_route_class_views(self):$/;"	m	class:SubdomainTestCase
+test_multi_route_rules	flask/testsuite/basic.py	/^    def test_multi_route_rules(self):$/;"	m	class:SubdomainTestCase
+test_name_with_import_error	flask/testsuite/helpers.py	/^    def test_name_with_import_error(self):$/;"	m	class:NoImportsTestCase
+test_no_error_swallowing	flask/testsuite/ext.py	/^    def test_no_error_swallowing(self):$/;"	m	class:ExtImportHookTestCase
+test_no_escaping	flask/testsuite/templating.py	/^    def test_no_escaping(self):$/;"	m	class:TemplatingTestCase
+test_nonascii_pathinfo	flask/testsuite/basic.py	/^    def test_nonascii_pathinfo(self):$/;"	m	class:BasicFunctionalityTestCase
+test_none_response	flask/testsuite/basic.py	/^    def test_none_response(self):$/;"	m	class:BasicFunctionalityTestCase
+test_nosubdomain	flask/testsuite/testing.py	/^    def test_nosubdomain(self):$/;"	m	class:SubdomainTestCase
+test_options_handling_disabled	flask/testsuite/basic.py	/^    def test_options_handling_disabled(self):$/;"	m	class:BasicFunctionalityTestCase
+test_options_on_multiple_rules	flask/testsuite/basic.py	/^    def test_options_on_multiple_rules(self):$/;"	m	class:BasicFunctionalityTestCase
+test_options_work	flask/testsuite/basic.py	/^    def test_options_work(self):$/;"	m	class:BasicFunctionalityTestCase
+test_original_win	flask/testsuite/templating.py	/^    def test_original_win(self):$/;"	m	class:TemplatingTestCase
+test_prefix_package_paths	flask/testsuite/config.py	/^    def test_prefix_package_paths(self):$/;"	m	class:InstanceTestCase
+test_prefix_package_paths_with_limited_loader	flask/testsuite/config.py	/^    def test_prefix_package_paths_with_limited_loader(self):$/;"	m	class:InstanceTestCase
+test_preserve_only_once	flask/testsuite/basic.py	/^    def test_preserve_only_once(self):$/;"	m	class:BasicFunctionalityTestCase
+test_preserve_remembers_exception	flask/testsuite/basic.py	/^    def test_preserve_remembers_exception(self):$/;"	m	class:BasicFunctionalityTestCase
+test_processor_exceptions	flask/testsuite/helpers.py	/^    def test_processor_exceptions(self):$/;"	m	class:LoggingTestCase
+test_proper_test_request_context	flask/testsuite/reqctx.py	/^    def test_proper_test_request_context(self):$/;"	m	class:RequestContextTestCase
+test_redirect_keep_session	flask/testsuite/testing.py	/^    def test_redirect_keep_session(self):$/;"	m	class:TestToolsTestCase
+test_register	examples/minitwit/minitwit_tests.py	/^    def test_register(self):$/;"	m	class:MiniTwitTestCase
+test_request_context	flask/app.py	/^    def test_request_context(self, *args, **kwargs):$/;"	m	class:Flask
+test_request_context_means_app_context	flask/testsuite/appctx.py	/^    def test_request_context_means_app_context(self):$/;"	m	class:AppContextTestCase
+test_request_dispatching	flask/testsuite/basic.py	/^    def test_request_dispatching(self):$/;"	m	class:BasicFunctionalityTestCase
+test_request_exception_signal	flask/testsuite/signals.py	/^    def test_request_exception_signal(self):$/;"	m	class:SignalsTestCase
+test_request_less_rendering	flask/testsuite/templating.py	/^    def test_request_less_rendering(self):$/;"	m	class:TemplatingTestCase
+test_request_locals	flask/testsuite/basic.py	/^    def test_request_locals(self):$/;"	m	class:BasicFunctionalityTestCase
+test_request_processing	flask/testsuite/basic.py	/^    def test_request_processing(self):$/;"	m	class:BasicFunctionalityTestCase
+test_request_processing	flask/testsuite/blueprints.py	/^    def test_request_processing(self):$/;"	m	class:ModuleTestCase
+test_request_signals	flask/testsuite/signals.py	/^    def test_request_signals(self):$/;"	m	class:SignalsTestCase
+test_response_creation	flask/testsuite/basic.py	/^    def test_response_creation(self):$/;"	m	class:BasicFunctionalityTestCase
+test_reuse_client	flask/testsuite/testing.py	/^    def test_reuse_client(self):$/;"	m	class:TestToolsTestCase
+test_route_decorator_custom_endpoint	flask/testsuite/basic.py	/^    def test_route_decorator_custom_endpoint(self):$/;"	m	class:BasicFunctionalityTestCase
+test_route_decorator_custom_endpoint	flask/testsuite/blueprints.py	/^    def test_route_decorator_custom_endpoint(self):$/;"	m	class:BlueprintTestCase
+test_route_decorator_custom_endpoint_with_dots	flask/testsuite/blueprints.py	/^    def test_route_decorator_custom_endpoint_with_dots(self):$/;"	m	class:BlueprintTestCase
+test_routing_redirect_debugging	flask/testsuite/basic.py	/^    def test_routing_redirect_debugging(self):$/;"	m	class:BasicFunctionalityTestCase
+test_safe_access	flask/testsuite/blueprints.py	/^    def test_safe_access(self):$/;"	m	class:ModuleTestCase
+test_safe_join_toplevel_pardir	flask/testsuite/regression.py	/^    def test_safe_join_toplevel_pardir(self):$/;"	m	class:MemoryTestCase
+test_send_file_object	flask/testsuite/helpers.py	/^    def test_send_file_object(self):$/;"	m	class:SendfileTestCase
+test_send_file_regular	flask/testsuite/helpers.py	/^    def test_send_file_regular(self):$/;"	m	class:SendfileTestCase
+test_send_file_xsendfile	flask/testsuite/helpers.py	/^    def test_send_file_xsendfile(self):$/;"	m	class:SendfileTestCase
+test_session	flask/testsuite/basic.py	/^    def test_session(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_expiration	flask/testsuite/basic.py	/^    def test_session_expiration(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_lifetime	flask/testsuite/config.py	/^    def test_session_lifetime(self):$/;"	m	class:ConfigTestCase
+test_session_special_types	flask/testsuite/basic.py	/^    def test_session_special_types(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_stored_last	flask/testsuite/basic.py	/^    def test_session_stored_last(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_transaction_needs_cookies	flask/testsuite/testing.py	/^    def test_session_transaction_needs_cookies(self):$/;"	m	class:TestToolsTestCase
+test_session_transactions	flask/testsuite/testing.py	/^    def test_session_transactions(self):$/;"	m	class:TestToolsTestCase
+test_session_transactions_keep_context	flask/testsuite/testing.py	/^    def test_session_transactions_keep_context(self):$/;"	m	class:TestToolsTestCase
+test_session_transactions_no_null_sessions	flask/testsuite/testing.py	/^    def test_session_transactions_no_null_sessions(self):$/;"	m	class:TestToolsTestCase
+test_session_using_application_root	flask/testsuite/basic.py	/^    def test_session_using_application_root(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_using_server_name	flask/testsuite/basic.py	/^    def test_session_using_server_name(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_using_server_name_and_port	flask/testsuite/basic.py	/^    def test_session_using_server_name_and_port(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_using_server_name_port_and_path	flask/testsuite/basic.py	/^    def test_session_using_server_name_port_and_path(self):$/;"	m	class:BasicFunctionalityTestCase
+test_session_using_session_settings	flask/testsuite/basic.py	/^    def test_session_using_session_settings(self):$/;"	m	class:BasicFunctionalityTestCase
+test_standard_context	flask/testsuite/templating.py	/^    def test_standard_context(self):$/;"	m	class:TemplatingTestCase
+test_static_file	flask/testsuite/helpers.py	/^    def test_static_file(self):$/;"	m	class:SendfileTestCase
+test_static_files	flask/testsuite/basic.py	/^    def test_static_files(self):$/;"	m	class:BasicFunctionalityTestCase
+test_streaming_with_context	flask/testsuite/helpers.py	/^    def test_streaming_with_context(self):$/;"	m	class:StreamingTestCase
+test_streaming_with_context_and_custom_close	flask/testsuite/helpers.py	/^    def test_streaming_with_context_and_custom_close(self):$/;"	m	class:StreamingTestCase
+test_streaming_with_context_as_decorator	flask/testsuite/helpers.py	/^    def test_streaming_with_context_as_decorator(self):$/;"	m	class:StreamingTestCase
+test_subdomain	flask/testsuite/testing.py	/^    def test_subdomain(self):$/;"	m	class:SubdomainTestCase
+test_subdomain_matching	flask/testsuite/basic.py	/^    def test_subdomain_matching(self):$/;"	m	class:SubdomainTestCase
+test_subdomain_matching_with_ports	flask/testsuite/basic.py	/^    def test_subdomain_matching_with_ports(self):$/;"	m	class:SubdomainTestCase
+test_suite	setup.py	/^    test_suite='flask.testsuite.suite'$/;"	v	class:run_audit
+test_suppressed_exception_logging	flask/testsuite/subclassing.py	/^    def test_suppressed_exception_logging(self):$/;"	m	class:FlaskSubclassingTestCase
+test_teardown_on_pop	flask/testsuite/reqctx.py	/^    def test_teardown_on_pop(self):$/;"	m	class:RequestContextTestCase
+test_teardown_request_handler	flask/testsuite/basic.py	/^    def test_teardown_request_handler(self):$/;"	m	class:BasicFunctionalityTestCase
+test_teardown_request_handler_debug_mode	flask/testsuite/basic.py	/^    def test_teardown_request_handler_debug_mode(self):$/;"	m	class:BasicFunctionalityTestCase
+test_teardown_request_handler_error	flask/testsuite/basic.py	/^    def test_teardown_request_handler_error(self):$/;"	m	class:BasicFunctionalityTestCase
+test_template_escaping	flask/testsuite/helpers.py	/^    def test_template_escaping(self):$/;"	m	class:JSONTestCase
+test_template_filter	flask/testsuite/blueprints.py	/^    def test_template_filter(self):$/;"	m	class:BlueprintTestCase
+test_template_filter	flask/testsuite/templating.py	/^    def test_template_filter(self):$/;"	m	class:TemplatingTestCase
+test_template_filter_after_route_with_template	flask/testsuite/blueprints.py	/^    def test_template_filter_after_route_with_template(self):$/;"	m	class:BlueprintTestCase
+test_template_filter_with_name	flask/testsuite/blueprints.py	/^    def test_template_filter_with_name(self):$/;"	m	class:BlueprintTestCase
+test_template_filter_with_name	flask/testsuite/templating.py	/^    def test_template_filter_with_name(self):$/;"	m	class:TemplatingTestCase
+test_template_filter_with_name_and_template	flask/testsuite/blueprints.py	/^    def test_template_filter_with_name_and_template(self):$/;"	m	class:BlueprintTestCase
+test_template_filter_with_name_and_template	flask/testsuite/templating.py	/^    def test_template_filter_with_name_and_template(self):$/;"	m	class:TemplatingTestCase
+test_template_filter_with_template	flask/testsuite/blueprints.py	/^    def test_template_filter_with_template(self):$/;"	m	class:BlueprintTestCase
+test_template_filter_with_template	flask/testsuite/templating.py	/^    def test_template_filter_with_template(self):$/;"	m	class:TemplatingTestCase
+test_template_rendered	flask/testsuite/signals.py	/^    def test_template_rendered(self):$/;"	m	class:SignalsTestCase
+test_template_test	flask/testsuite/blueprints.py	/^    def test_template_test(self):$/;"	m	class:BlueprintTestCase
+test_template_test	flask/testsuite/templating.py	/^    def test_template_test(self):$/;"	m	class:TemplatingTestCase
+test_template_test_after_route_with_template	flask/testsuite/blueprints.py	/^    def test_template_test_after_route_with_template(self):$/;"	m	class:BlueprintTestCase
+test_template_test_with_name	flask/testsuite/blueprints.py	/^    def test_template_test_with_name(self):$/;"	m	class:BlueprintTestCase
+test_template_test_with_name	flask/testsuite/templating.py	/^    def test_template_test_with_name(self):$/;"	m	class:TemplatingTestCase
+test_template_test_with_name_and_template	flask/testsuite/blueprints.py	/^    def test_template_test_with_name_and_template(self):$/;"	m	class:BlueprintTestCase
+test_template_test_with_name_and_template	flask/testsuite/templating.py	/^    def test_template_test_with_name_and_template(self):$/;"	m	class:TemplatingTestCase
+test_template_test_with_template	flask/testsuite/blueprints.py	/^    def test_template_test_with_template(self):$/;"	m	class:BlueprintTestCase
+test_template_test_with_template	flask/testsuite/templating.py	/^    def test_template_test_with_template(self):$/;"	m	class:TemplatingTestCase
+test_templates_and_static	flask/testsuite/blueprints.py	/^    def test_templates_and_static(self):$/;"	m	class:BlueprintTestCase
+test_templates_and_static	flask/testsuite/blueprints.py	/^    def test_templates_and_static(self):$/;"	m	class:ModuleTestCase
+test_templates_list	flask/testsuite/blueprints.py	/^    def test_templates_list(self):$/;"	m	class:BlueprintTestCase
+test_test_app_proper_environ	flask/testsuite/basic.py	/^    def test_test_app_proper_environ(self):$/;"	m	class:BasicFunctionalityTestCase
+test_test_client_calls_teardown_handlers	flask/testsuite/testing.py	/^    def test_test_client_calls_teardown_handlers(self):$/;"	m	class:TestToolsTestCase
+test_test_client_context_binding	flask/testsuite/testing.py	/^    def test_test_client_context_binding(self):$/;"	m	class:TestToolsTestCase
+test_timelines	examples/minitwit/minitwit_tests.py	/^    def test_timelines(self):$/;"	m	class:MiniTwitTestCase
+test_trapping_of_all_http_exceptions	flask/testsuite/basic.py	/^    def test_trapping_of_all_http_exceptions(self):$/;"	m	class:BasicFunctionalityTestCase
+test_trapping_of_bad_request_key_errors	flask/testsuite/basic.py	/^    def test_trapping_of_bad_request_key_errors(self):$/;"	m	class:BasicFunctionalityTestCase
+test_uninstalled_module_paths	flask/testsuite/config.py	/^    def test_uninstalled_module_paths(self):$/;"	m	class:InstanceTestCase
+test_uninstalled_package_paths	flask/testsuite/config.py	/^    def test_uninstalled_package_paths(self):$/;"	m	class:InstanceTestCase
+test_url_for_with_anchor	flask/testsuite/helpers.py	/^    def test_url_for_with_anchor(self):$/;"	m	class:LoggingTestCase
+test_url_for_with_scheme	flask/testsuite/helpers.py	/^    def test_url_for_with_scheme(self):$/;"	m	class:LoggingTestCase
+test_url_for_with_scheme_not_external	flask/testsuite/helpers.py	/^    def test_url_for_with_scheme_not_external(self):$/;"	m	class:LoggingTestCase
+test_url_generation	flask/testsuite/basic.py	/^    def test_url_generation(self):$/;"	m	class:BasicFunctionalityTestCase
+test_url_generation_requires_server_name	flask/testsuite/appctx.py	/^    def test_url_generation_requires_server_name(self):$/;"	m	class:AppContextTestCase
+test_url_generation_without_context_fails	flask/testsuite/appctx.py	/^    def test_url_generation_without_context_fails(self):$/;"	m	class:AppContextTestCase
+test_url_mapping	flask/testsuite/basic.py	/^    def test_url_mapping(self):$/;"	m	class:BasicFunctionalityTestCase
+test_url_processors	flask/testsuite/basic.py	/^    def test_url_processors(self):$/;"	m	class:BasicFunctionalityTestCase
+test_url_with_method	flask/testsuite/helpers.py	/^    def test_url_with_method(self):$/;"	m	class:LoggingTestCase
+test_urls	examples/blueprintexample/blueprintexample_test.py	/^    def test_urls(self):$/;"	m	class:BlueprintExampleTestCase
+test_user_error_handling	flask/testsuite/basic.py	/^    def test_user_error_handling(self):$/;"	m	class:BasicFunctionalityTestCase
+test_view_decorators	flask/testsuite/views.py	/^    def test_view_decorators(self):$/;"	m	class:ViewTestCase
+test_view_inheritance	flask/testsuite/views.py	/^    def test_view_inheritance(self):$/;"	m	class:ViewTestCase
+test_view_patching	flask/testsuite/views.py	/^    def test_view_patching(self):$/;"	m	class:ViewTestCase
+test_werkzeug_routing	flask/testsuite/basic.py	/^    def test_werkzeug_routing(self):$/;"	m	class:BasicFunctionalityTestCase
+test_with_categories	flask/testsuite/basic.py	/^        def test_with_categories():$/;"	f	function:BasicFunctionalityTestCase.test_extended_flashing
+testing	flask/app.py	/^    testing = ConfigAttribute('TESTING')$/;"	v	class:Flask
+text_type	flask/_compat.py	/^    text_type = str$/;"	v
+text_type	flask/_compat.py	/^    text_type = unicode$/;"	v
+text_type	flask/app.py	/^from ._compat import reraise, string_types, text_type, integer_types$/;"	i
+text_type	flask/helpers.py	/^from ._compat import string_types, text_type$/;"	i
+text_type	flask/json.py	/^from ._compat import text_type, PY2$/;"	i
+text_type	flask/sessions.py	/^from ._compat import iteritems, text_type$/;"	i
+text_type	flask/testsuite/basic.py	/^from flask._compat import text_type$/;"	i
+text_type	flask/testsuite/blueprints.py	/^from flask._compat import text_type$/;"	i
+text_type	flask/testsuite/helpers.py	/^from flask._compat import StringIO, text_type$/;"	i
+text_type	flask/testsuite/testing.py	/^from flask._compat import text_type$/;"	i
+threading	flask/testsuite/regression.py	/^import threading$/;"	i
+time	examples/minitwit/minitwit.py	/^import time$/;"	i
+time	flask/helpers.py	/^from time import time$/;"	i
+timedelta	flask/app.py	/^from datetime import timedelta$/;"	i
+timeline	examples/minitwit/minitwit.py	/^def timeline():$/;"	f
+to_python	flask/testsuite/basic.py	/^            def to_python(self, value):$/;"	m	class:BasicFunctionalityTestCase.test_custom_converters.ListConverter
+to_url	flask/testsuite/basic.py	/^            def to_url(self, value):$/;"	m	class:BasicFunctionalityTestCase.test_custom_converters.ListConverter
+tojson_filter	flask/json.py	/^def tojson_filter(obj, **kwargs):$/;"	f
+total_seconds	flask/sessions.py	/^def total_seconds(td):$/;"	f
+trap_http_exception	flask/app.py	/^    def trap_http_exception(self, e):$/;"	m	class:Flask
+try_trigger_before_first_request_functions	flask/app.py	/^    def try_trigger_before_first_request_functions(self):$/;"	m	class:Flask
+unfollow_user	examples/minitwit/minitwit.py	/^def unfollow_user(username):$/;"	f
+unittest	examples/blueprintexample/blueprintexample_test.py	/^import unittest$/;"	i
+unittest	examples/flaskr/flaskr_tests.py	/^import unittest$/;"	i
+unittest	examples/minitwit/minitwit_tests.py	/^import unittest$/;"	i
+unittest	flask/testsuite/__init__.py	/^import unittest$/;"	i
+unittest	flask/testsuite/appctx.py	/^import unittest$/;"	i
+unittest	flask/testsuite/basic.py	/^import unittest$/;"	i
+unittest	flask/testsuite/blueprints.py	/^import unittest$/;"	i
+unittest	flask/testsuite/config.py	/^import unittest$/;"	i
+unittest	flask/testsuite/deprecations.py	/^import unittest$/;"	i
+unittest	flask/testsuite/examples.py	/^import unittest$/;"	i
+unittest	flask/testsuite/ext.py	/^import unittest$/;"	i
+unittest	flask/testsuite/helpers.py	/^import unittest$/;"	i
+unittest	flask/testsuite/regression.py	/^import unittest$/;"	i
+unittest	flask/testsuite/reqctx.py	/^import unittest$/;"	i
+unittest	flask/testsuite/signals.py	/^import unittest$/;"	i
+unittest	flask/testsuite/subclassing.py	/^import unittest$/;"	i
+unittest	flask/testsuite/templating.py	/^import unittest$/;"	i
+unittest	flask/testsuite/testing.py	/^import unittest$/;"	i
+unittest	flask/testsuite/views.py	/^import unittest$/;"	i
+update_template_context	flask/app.py	/^    def update_template_context(self, context):$/;"	m	class:Flask
+update_wrapper	flask/app.py	/^from functools import update_wrapper$/;"	i
+update_wrapper	flask/blueprints.py	/^from functools import update_wrapper$/;"	i
+update_wrapper	flask/ctx.py	/^from functools import update_wrapper$/;"	i
+update_wrapper	flask/helpers.py	/^from functools import update_wrapper$/;"	i
+update_wrapper	flask/testsuite/__init__.py	/^from functools import update_wrapper$/;"	i
+url	setup.py	/^    url='http:\/\/github.com\/mitsuhiko\/flask\/',$/;"	v	class:run_audit
+url_charset	flask/testsuite/helpers.py	/^            url_charset = 'euc-kr'$/;"	v	class:JSONTestCase.test_modified_url_encoding.ModifiedRequest
+url_defaults	flask/app.py	/^    def url_defaults(self, f):$/;"	m	class:Flask
+url_defaults	flask/blueprints.py	/^    def url_defaults(self, f):$/;"	m	class:Blueprint
+url_for	examples/flaskr/flaskr.py	/^     render_template, flash, _app_ctx_stack$/;"	i
+url_for	examples/minitwit/minitwit.py	/^     render_template, abort, g, flash, _app_ctx_stack$/;"	i
+url_for	flask/__init__.py	/^    stream_with_context$/;"	i
+url_for	flask/app.py	/^     locked_cached_property, _endpoint_from_view_func, find_package$/;"	i
+url_for	flask/helpers.py	/^def url_for(endpoint, **values):$/;"	f
+url_parse	flask/testing.py	/^    from urlparse import urlsplit as url_parse$/;"	i
+url_parse	flask/testing.py	/^    from werkzeug.urls import url_parse$/;"	i
+url_quote	flask/helpers.py	/^    from urlparse import quote as url_quote$/;"	i
+url_quote	flask/helpers.py	/^    from werkzeug.urls import url_quote$/;"	i
+url_rule	flask/wrappers.py	/^    url_rule = None$/;"	v	class:Request
+url_rule_class	flask/app.py	/^    url_rule_class = Rule$/;"	v	class:Flask
+url_value_preprocessor	flask/app.py	/^    def url_value_preprocessor(self, f):$/;"	m	class:Flask
+url_value_preprocessor	flask/blueprints.py	/^    def url_value_preprocessor(self, f):$/;"	m	class:Blueprint
+use_x_sendfile	flask/app.py	/^    use_x_sendfile = ConfigAttribute('USE_X_SENDFILE')$/;"	v	class:Flask
+user	examples/minitwit/schema.sql	/^create table user ($/;"	t
+user.email	examples/minitwit/schema.sql	/^  email text not null,$/;"	F
+user.pw_hash	examples/minitwit/schema.sql	/^  pw_hash text not null$/;"	F
+user.user_id	examples/minitwit/schema.sql	/^  user_id integer primary key autoincrement,$/;"	F
+user.username	examples/minitwit/schema.sql	/^  username text not null,$/;"	F
+user_options	setup.py	/^    user_options = []$/;"	v	class:run_audit
+user_timeline	examples/minitwit/minitwit.py	/^def user_timeline(username):$/;"	f
+uuid	flask/json.py	/^import uuid$/;"	i
+uuid	flask/sessions.py	/^import uuid$/;"	i
+uuid	flask/testsuite/basic.py	/^import uuid$/;"	i
+version	docs/conf.py	/^version = '.'.join(release.split('.')[:2])$/;"	v
+version	setup.py	/^    version='0.10.1',$/;"	v	class:run_audit
+view	flask/testsuite/basic.py	/^        def view(page): pass$/;"	f	function:BasicFunctionalityTestCase.test_inject_blueprint_url_defaults
+view	flask/testsuite/testing.py	/^        def view(company_id):$/;"	f	function:SubdomainTestCase.test_nosubdomain
+view	flask/testsuite/testing.py	/^        def view(company_id):$/;"	f	function:SubdomainTestCase.test_subdomain
+view	flask/views.py	/^        def view(*args, **kwargs):$/;"	f	function:View.as_view
+view_args	flask/wrappers.py	/^    view_args = None$/;"	v	class:Request
+views	flask/testsuite/views.py	/^import flask.views$/;"	i
+warn	flask/app.py	/^            from warnings import warn$/;"	i
+warn	flask/app.py	/^        from warnings import warn$/;"	i
+warn	flask/blueprints.py	/^            from warnings import warn$/;"	i
+warn	flask/helpers.py	/^        from warnings import warn$/;"	i
+warn	flask/wrappers.py	/^        from warnings import warn$/;"	i
+warn_on_modifications	flask/blueprints.py	/^    warn_on_modifications = False$/;"	v	class:Blueprint
+warnings	flask/testsuite/__init__.py	/^import warnings$/;"	i
+warnings	flask/testsuite/blueprints.py	/^import warnings$/;"	i
+whatever	flask/testsuite/regression.py	/^            whatever = 42$/;"	v	class:ExceptionTestCase.test_aborting.Foo
+with_metaclass	flask/_compat.py	/^def with_metaclass(meta, *bases):$/;"	f
+with_metaclass	flask/views.py	/^from ._compat import with_metaclass$/;"	i
+with_statement	flask/ctx.py	/^from __future__ import with_statement$/;"	i
+working	flask/testsuite/basic.py	/^        def working():$/;"	f	function:BasicFunctionalityTestCase.test_debug_mode_complains_after_first_request
+wrap_file	flask/helpers.py	/^    from werkzeug.utils import wrap_file$/;"	i
+wrap_file	flask/helpers.py	/^    from werkzeug.wsgi import wrap_file$/;"	i
+wrapper	flask/blueprints.py	/^        def wrapper(state):$/;"	f	function:Blueprint.record_once
+wrapper	flask/ctx.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:copy_current_request_context
+wrapper_func	flask/app.py	/^    def wrapper_func(self, *args, **kwargs):$/;"	f	function:setupmethod
+wsgi_app	flask/app.py	/^    def wsgi_app(self, environ, start_response):$/;"	m	class:Flask
+zip_safe	setup.py	/^    zip_safe=False,$/;"	v	class:run_audit
